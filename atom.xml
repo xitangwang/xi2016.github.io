@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>I&#39;Notes</title>
+  <subtitle>The Communism We Trust</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.xtwroot.com/"/>
+  <updated>2017-07-20T03:54:31.609Z</updated>
+  <id>http://blog.xtwroot.com/</id>
+  
+  <author>
+    <name>西唐王</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>改变4：柔软的心态</title>
+    <link href="http://blog.xtwroot.com/2017/07/13/%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98/%E6%94%B9%E5%8F%984%EF%BC%9A%E6%9F%94%E8%BD%AF%E7%9A%84%E5%BF%83%E6%80%81/"/>
+    <id>http://blog.xtwroot.com/2017/07/13/五十二个改变/改变4：柔软的心态/</id>
+    <published>2017-07-13T03:13:11.000Z</published>
+    <updated>2017-07-20T03:54:31.609Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="改变"><a href="#改变" class="headerlink" title="改变"></a>改变</h3><p> 少些计较心和得失心，以柔软和包容之心接纳事情。</p>
+<h3 id="理-由"><a href="#理-由" class="headerlink" title="理 由"></a>理 由</h3><p> 我们希望事情按照自己设定的剧本进行。当事情的发展与我们设想有偏差时，我们<br>就会感到挫败和郁闷，有时候还会生自己气。</p>
+<p>可是啊，人生不如意十之八九，如果每件事你都生气，那人活着得多苦逼啊。</p>
+<p>所以嘛，我们要学习以柔软的心态去接纳种种变化，不以好或坏来评价它。</p>
+<h3 id="步-骤"><a href="#步-骤" class="headerlink" title="步 骤"></a>步 骤</h3><ol>
+<li><p>在这周内，当你做事「不如意」时，试着放弃当初「如你意」的那个想法；</p>
+</li>
+<li><p>列一个自己的「不爽清单」。比如专心工作被打断，开车被加塞，找了一堆A片却下不来，夫人不去做家务等等；</p>
+</li>
+</ol>
+<ol>
+<li><p>把这个清单放到你随时可见的地方。比如录入手机的记事本、放在办公桌；</p>
+</li>
+<li><p>当我们因为清单上的事情生气时，停下来，不要行动，平静地呼吸一会儿；</p>
+</li>
+<li><p>当你平静下来后，观察下让自己不爽的原因是什么——比如希望超车的司机别这么冲，别人发封邮件而不是电话打扰；</p>
+</li>
+<li><p>当心情安静下来后，你就能进行这样的观察了：也许别人有急事赶时间、或者是个刚拿驾照的新手。如此这样，你就能平静地做出反应，坦然接受它们了；</p>
+<p> 这样的练习在一周中也许会有很多次。我自己一开始的时候也做不到平静观察。因为自己的习气已经养成多年，而习气的力量往往比意志力还强。所以只是注意到自己的这些情绪，并试着每天一次运用这些步骤，已经是非常了不起的了。</p>
+</li>
+</ol>
+<p>在我们进行52个改变的过程中，总会有各种各样的「不如意」发生。练习这些改变的过程，其实你也是在练习这种「不去计较、坦然接受」的柔软心态。在接下来的时间里，希望你能常常进行这项练习^_^。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;改变&quot;&gt;&lt;a href=&quot;#改变&quot; class=&quot;headerlink&quot; title=&quot;改变&quot;&gt;&lt;/a&gt;改变&lt;/h3&gt;&lt;p&gt; 少些计较心和得失心，以柔软和包容之心接纳事情。&lt;/p&gt;
+&lt;h3 id=&quot;理-由&quot;&gt;&lt;a href=&quot;#理-由&quot; class=&quot;header
+    
+    </summary>
+    
+    
+      <category term="habit" scheme="http://blog.xtwroot.com/tags/habit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown指南</title>
+    <link href="http://blog.xtwroot.com/2017/07/06/%E5%A5%BD%E7%94%A8%E7%9A%84API/Markdown%E6%8C%87%E5%8D%97/"/>
+    <id>http://blog.xtwroot.com/2017/07/06/好用的API/Markdown指南/</id>
+    <published>2017-07-06T14:30:34.000Z</published>
+    <updated>2017-07-13T03:16:10.318Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、利用Markdown可以做什么？"><a href="#一、利用Markdown可以做什么？" class="headerlink" title="一、利用Markdown可以做什么？"></a>一、利用Markdown可以做什么？</h1><h2 id="①-代码高亮"><a href="#①-代码高亮" class="headerlink" title="① 代码高亮"></a>① 代码高亮</h2><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/1-1%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE.png" alt="image"></p>
+<h2 id="②-制作待办事项To-do-List"><a href="#②-制作待办事项To-do-List" class="headerlink" title="② 制作待办事项To-do List"></a>② 制作待办事项To-do List</h2><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/1-2%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9.png" alt="image"></p>
+<h2 id="③-高效绘制-流程图、序列图、甘特图、表格"><a href="#③-高效绘制-流程图、序列图、甘特图、表格" class="headerlink" title="③ 高效绘制 流程图、序列图、甘特图、表格"></a>③ 高效绘制 流程图、序列图、甘特图、表格</h2><h3 id="流程图："><a href="#流程图：" class="headerlink" title="流程图："></a>流程图：</h3><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="image"></p>
+<h3 id="序列图："><a href="#序列图：" class="headerlink" title="序列图："></a>序列图：</h3><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/%E5%BA%8F%E5%88%97%E5%9B%BE.png" alt="image"></p>
+<h3 id="甘特图："><a href="#甘特图：" class="headerlink" title="甘特图："></a>甘特图：</h3><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/%E7%94%98%E7%89%B9%E5%9B%BE.png" alt="image"></p>
+<h3 id="表格："><a href="#表格：" class="headerlink" title="表格："></a>表格：</h3><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/1-3%E8%A1%A8%E6%A0%BC.png" alt="image"></p>
+<h2 id="④-书写数学公式"><a href="#④-书写数学公式" class="headerlink" title="④ 书写数学公式"></a>④ 书写数学公式</h2><p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.png" alt="image"></p>
+<h1 id="二、Markdown简明版使用指南"><a href="#二、Markdown简明版使用指南" class="headerlink" title="二、Markdown简明版使用指南"></a>二、Markdown简明版使用指南</h1><h2 id="0-标题"><a href="#0-标题" class="headerlink" title="0 标题"></a>0 标题</h2><p>标题是每篇文章必备而且最常用的格式。</p>
+<p>在Markdown中，如果想将一段文字定义为标题，只需要==在这段文字前面加上 #，再在 # 后加一个空格==即可。还可增加二、三、四、五、六级标题，总共六级，只需要增加 # ，==增加一个 # ，标题字号相应降低一级==。如图：</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-0-%E6%A0%87%E9%A2%98.png" alt="2-0 标题"></p>
+<h2 id="1-列表"><a href="#1-列表" class="headerlink" title="1 列表"></a>1 列表</h2><p>列表格式也很常用，它可以让你的文稿变得井井有条。在 Markdown 中，你只需要在文字前面加上 - 就可以了；如果你希望是有序列表，在文字前面加上 ==1. 2. 3. 即可==。</p>
+<p><em>注：-、1.和文字之间要保留一个字符的空格。</em></p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-1-%E5%88%97%E8%A1%A8.png" alt="2-1 列表"></p>
+<h2 id="2-引用"><a href="#2-引用" class="headerlink" title="2 引用"></a>2 引用</h2><p>如果你需要在文稿中引用一段别处的句子，那么就要用到「引用」格式。</p>
+<p>在引用文字前加上 ==&gt;== 并与文字保留一个字符的空格，即可。</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-2%E5%BC%95%E7%94%A8.png" alt="2-2引用"></p>
+<h2 id="3-粗体和斜体"><a href="#3-粗体和斜体" class="headerlink" title="3 粗体和斜体"></a>3 粗体和斜体</h2><p>Markdown 的粗体和斜体也非常简单：</p>
+<p>用==两个 * 包含一段文本==就是粗体的语法；</p>
+<p>用==一个 * 包含一段文本==就是斜体的语法。</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-3-%E7%B2%97%E4%BD%93%E6%96%9C%E4%BD%93.png" alt="2-3 粗体&amp;斜体"></p>
+<h2 id="4-链接与图片"><a href="#4-链接与图片" class="headerlink" title="4 链接与图片"></a>4 链接与图片</h2><p>链接：在 Markdown 中，插入链接只需要使用 ==[显示文本]  (链接地址)== 即可。</p>
+<p>图片：在 Markdown 中，插入图片只需要使用 ==![显示文本]  (图片链接地址)== 即可。</p>
+<p>注：插入图片的语法和链接的语法很像，只是前面多了一个 ！</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-4%E9%93%BE%E6%8E%A5%E4%B8%8E%E5%9B%BE%E7%89%87.png" alt="2-4链接与图片"></p>
+<h2 id="5-分割线"><a href="#5-分割线" class="headerlink" title="5 分割线"></a>5 分割线</h2><p>分割线的语法只需要另起一行，连续输入三个星号 <em>*</em> 即可分割两段文字内容。</p>
+<p>如图：</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-5-%E5%88%86%E5%89%B2%E7%BA%BF.png" alt="image"></p>
+<p>2-5 分割线</p>
+<h2 id="6-表格"><a href="#6-表格" class="headerlink" title="6 表格"></a>6 表格</h2><p>当你需要在Markdown文稿中键入表格，代码如下：</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-6%E8%A1%A8%E6%A0%BC.png" alt="2-6表格"></p>
+<p>示例参考：</p>
+<p><img src="http://note.youdao.com/iyoudao/wp-content/uploads/2016/09/2-6-7.png" alt="2-6-7"></p>
+<p><strong>如上7大格式是写作文稿时最常使用的。</strong></p>
+<h1 id="Markdown编辑器"><a href="#Markdown编辑器" class="headerlink" title="Markdown编辑器"></a>Markdown编辑器</h1><p>（1） 有道云笔记  <a href="http://note.youdao.com/download.html" target="_blank" rel="external">下载</a></p>
+<p>（2）  vscode  <a href="https://code.visualstudio.com/" target="_blank" rel="external">下载</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、利用Markdown可以做什么？&quot;&gt;&lt;a href=&quot;#一、利用Markdown可以做什么？&quot; class=&quot;headerlink&quot; title=&quot;一、利用Markdown可以做什么？&quot;&gt;&lt;/a&gt;一、利用Markdown可以做什么？&lt;/h1&gt;&lt;h2 id=&quot;①
+    
+    </summary>
+    
+    
+      <category term="ToolKit" scheme="http://blog.xtwroot.com/tags/ToolKit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>改变3：健走</title>
+    <link href="http://blog.xtwroot.com/2017/07/05/%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98/%E6%94%B9%E5%8F%983%EF%BC%9A%E5%81%A5%E8%B5%B0/"/>
+    <id>http://blog.xtwroot.com/2017/07/05/五十二个改变/改变3：健走/</id>
+    <published>2017-07-05T12:30:34.000Z</published>
+    <updated>2017-07-05T12:30:50.295Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="改-变"><a href="#改-变" class="headerlink" title="改 变"></a>改 变</h3><p>每天健走2～5分钟。如果你已经养成健走的好习惯，可以增加到10分钟或者更久。</p>
+<h3 id="理-由"><a href="#理-由" class="headerlink" title="理 由"></a>理 由</h3><p>年纪大了，身体重要。健走是我见过最简单易行的保健方法了。如果你喜欢其他运动（比如健身，游泳），也可以把健走作为补充运动。相比那些做1休6、做3休4的运动，健走可以每天都进行。</p>
+<p>另外，我在健走时，常常会有些奇思妙想呢。</p>
+<h3 id="步-骤"><a href="#步-骤" class="headerlink" title="步 骤"></a>步 骤</h3><ol>
+<li><p>尽量每天选择一个固定的时间健走（比如吃完晚饭）；</p>
+</li>
+<li><p>每天只健走2-5分钟。如果你已经养成每天健走的好习惯，可以增加到10分钟或更久；</p>
+</li>
+<li><p>不需要啥乱七八糟的准备，穿上鞋就走，以放松的方式，缓慢地走；</p>
+</li>
+<li>如果你感觉良好，可以每天延长2-3分钟。</li>
+</ol>
+<p>以我的经验，带上耳机或者小音箱健走，会增加不少的乐趣。另外一个让你爱上健走的好方法是和朋友、家人、恋人一起走。书中介绍的很多改变，其实你都可以找个伴一起完成。同伴的相互监督和支持，会让大家更容易坚持。</p>
+<h3 id="调整"><a href="#调整" class="headerlink" title="调整"></a>调整</h3><p>根据实际情况，改为每天下午跑完步后在运动场上走两圈。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;改-变&quot;&gt;&lt;a href=&quot;#改-变&quot; class=&quot;headerlink&quot; title=&quot;改 变&quot;&gt;&lt;/a&gt;改 变&lt;/h3&gt;&lt;p&gt;每天健走2～5分钟。如果你已经养成健走的好习惯，可以增加到10分钟或者更久。&lt;/p&gt;
+&lt;h3 id=&quot;理-由&quot;&gt;&lt;a href=&quot;#
+    
+    </summary>
+    
+    
+      <category term="habit" scheme="http://blog.xtwroot.com/tags/habit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017OKR-7-1自评</title>
+    <link href="http://blog.xtwroot.com/2017/07/03/%E6%97%B6%E9%97%B4%E8%BF%99%E4%B8%AA%E6%9C%8B%E5%8F%8B/2017OKR-7-1%E8%87%AA%E8%AF%84/"/>
+    <id>http://blog.xtwroot.com/2017/07/03/时间这个朋友/2017OKR-7-1自评/</id>
+    <published>2017-07-03T10:50:43.000Z</published>
+    <updated>2017-07-03T10:52:48.575Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="OKR简介"><a href="#OKR简介" class="headerlink" title="OKR简介"></a>OKR简介</h2><p>Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。</p>
+<p>每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以看到。如果谁没有制定OKR，一目了然，即使没有人催你，大家看到你的网页上是一片空白，你自己都不好意思。到了季度结束时，每个人都会给自己的目标完成情况打分。完成了，得分是1。部分完成，得分是0到1之间的一个数字。</p>
+<p>Google强调每一个人制定的目标要有挑战性，因此如果一个人完成目标的得分情况总是1，并不能说明他工作好，而是目标定得太低。大部分情况下，大家完成目标的得分在0.7－0.8左右。当然，一个季度开始的时候的想法，和后来完成的任务可能会有差异，早期没有想到的事情后来可能做了。因此，在总结季度工作时，可以增加当初没有制定的目标，对于不打算完成的目标，或者已经过时、不再有意义的目标，不能删除，但是可以说明为什么没有做。今天我就按照Google制定OKR的习惯，介绍我在2017年的目标。</p>
+<h2 id="今年目标的夏季后自评"><a href="#今年目标的夏季后自评" class="headerlink" title="今年目标的夏季后自评"></a>今年目标的夏季后自评</h2><h3 id="目标1、养成第一个养成的习惯-不晚睡早起"><a href="#目标1、养成第一个养成的习惯-不晚睡早起" class="headerlink" title="目标1、养成第一个养成的习惯-不晚睡早起"></a>目标1、养成第一个养成的习惯-不晚睡早起</h3><pre><code>关键结果1.1、完成艾力早起团的目标 （0）- 未能坚持过四天
+关键结果1.2、每日火花的坚持 （0）- 未能坚持
+</code></pre><h3 id="目标2、养成写作的习惯"><a href="#目标2、养成写作的习惯" class="headerlink" title="目标2、养成写作的习惯"></a>目标2、养成写作的习惯</h3><pre><code>关键结果2.1、技术博客20篇 （0）
+关键结果2.2、故事20篇 （0.01）
+关键结果2.3、读书笔记20篇-陆续配上脑图 （0.1）
+</code></pre><h3 id="目标3、在上半年完成基本知识的积累（农历七月前）"><a href="#目标3、在上半年完成基本知识的积累（农历七月前）" class="headerlink" title="目标3、在上半年完成基本知识的积累（农历七月前）"></a>目标3、在上半年完成基本知识的积累（农历七月前）</h3><pre><code>关键结果3.1、数据结构（C++）视频、书及练习 （0.6）
+关键结果3.2、Java编程思想、威哥Java视频 （0.055）
+关键结果3.3、威哥Android视频、官方文档一遍 （可能要抛弃）
+关键结果3.4、完成碎梦时间的开发、并发布到应用商店 （0 暂时没有安排）
+关键结果3.5、牛客网刷题（每周三题）、多交流感受 （0.01）- 要抓紧了
+</code></pre><h3 id="目标4、保质保量完成团队项目"><a href="#目标4、保质保量完成团队项目" class="headerlink" title="目标4、保质保量完成团队项目"></a>目标4、保质保量完成团队项目</h3><pre><code>关键结果4.1、消防项目的图像处理模块及UI（得等素材） （0.9）
+关键结果4.2、大创项目的申报及前期准备工作  （1 已完成、但我没怎么出力）
+关键结果4.3、大创项目的开发 （0.01 正在学习kinect，准备重写适配包）
+</code></pre><h3 id="目标5、认真学好专业课程及独立完成作业"><a href="#目标5、认真学好专业课程及独立完成作业" class="headerlink" title="目标5、认真学好专业课程及独立完成作业"></a>目标5、认真学好专业课程及独立完成作业</h3><pre><code>关键结果5.1、NationDaily的网络模块及ui设计 （1.0）（网络模块可能要取消、但要写文字识别功能）（ 完全完成预定目标 ）
+关键结果5.2、计算机图形学的课程及全书代码 （0.7）（已结课，但是代码没有打完）
+关键结果5.3、视觉传达不能拉后腿 （0.8） （已结课、但是不理想）
+关键结果5.4、学好三维动画具备基本能力 （0.7） （get基本技能）
+</code></pre><h3 id="目标6、技术以外的学习计划"><a href="#目标6、技术以外的学习计划" class="headerlink" title="目标6、技术以外的学习计划"></a>目标6、技术以外的学习计划</h3><pre><code>关键结果6.1、坚持扇贝打卡 （0.5 一直都在，但没能连续打卡）
+关键结果6.2、仔细看完扇贝六级的视频 （0.1 看了一点，临时抱佛脚）
+关键结果6.3、做完六级题目 （0 没有做，裸考）
+关键结果6.4、认真读完快速阅读做好练习 （0.2 已经读完30%但练习不是很认真）
+关键结果6.5、仔细看完10本书、再快速看完另外10本 （0.45 已读完九本 ——《人类简史》、《人生的84000种可能》、《番茄工作法图解》、《癌人》、《动物农场》、《1984》、《未来简史》、《文明之光》（上）、《大学之路》（）上）
+关键结果6.6、看完两个于专业无关的视频课程 （获得具体内容 1、学堂在线《经济学原理》- 要完成相关翻译工作 （0.05 翻译了三节）
+2、 
+关键结果6.7、行万里路 独自去两个地方玩 （ 0 ）
+</code></pre><h3 id="目标7、坚持我一直想做的事情"><a href="#目标7、坚持我一直想做的事情" class="headerlink" title="目标7、坚持我一直想做的事情"></a>目标7、坚持我一直想做的事情</h3><pre><code>关键结果7.1、52个改变 （ 2 / 52 正在进行）
+关键结果7.2、果壳时间管理的清单 （ 0.01 在看《把时间当朋友》 ）
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;OKR简介&quot;&gt;&lt;a href=&quot;#OKR简介&quot; class=&quot;headerlink&quot; title=&quot;OKR简介&quot;&gt;&lt;/a&gt;OKR简介&lt;/h2&gt;&lt;p&gt;Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(
+    
+    </summary>
+    
+    
+      <category term="OKR" scheme="http://blog.xtwroot.com/tags/OKR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>改变2：立刻行动</title>
+    <link href="http://blog.xtwroot.com/2017/06/29/%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98/%E6%94%B9%E5%8F%982%EF%BC%9A%E7%AB%8B%E5%88%BB%E8%A1%8C%E5%8A%A8/"/>
+    <id>http://blog.xtwroot.com/2017/06/29/五十二个改变/改变2：立刻行动/</id>
+    <published>2017-06-29T10:00:34.000Z</published>
+    <updated>2017-06-30T00:50:51.176Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="改-变"><a href="#改-变" class="headerlink" title="改 变"></a>改 变</h2><p>每天进行5-10分钟的立刻行动时间。</p>
+<h2 id="理-由"><a href="#理-由" class="headerlink" title="理 由"></a>理 由</h2><p>拖延症可是个老大难问题。我们知道自己要去做这事，可就是拖着。</p>
+<p>反正还有些时间，先去逛逛淘宝，刷下微博，看看新闻，检查下邮箱有没有新邮件，做一些容易琐碎的小事，可就是不去做那件重要的事情。</p>
+<p>比如，我知道今天需要翻译2个章节才能赶上进度。但是在我开始翻译前，我总是会磨磨蹭蹭，喝杯水，刷新下朋友圈，检查下我的邮箱。看到了吗，在我翻译前，我有好多好多的琐事要做，虽然我知道这些事远不如翻译重要。</p>
+<p>为什么我们会一直做这些琐事？因为那些重要的事情往往不容易做，而人类的天性就是好逸懒做、能拖就拖。</p>
+<p>我们得立刻行动，越拖越难受。</p>
+<h2 id="步-骤"><a href="#步-骤" class="headerlink" title="步 骤"></a>步 骤</h2><ol>
+<li><p>给每天设定一个「立刻行动时间」。头2天可以设置5分钟，后面5天设置10分钟；</p>
+</li>
+<li><p>在这个时间段里，做1件对你重要的事情（比如我要翻译这本书），立刻开始做5分钟、或者10分钟；</p>
+</li>
+<li>排除干扰。在「立刻行动时间」开始前，断网关手机、别打开不需要的电脑程序。如果音乐会让你分心，也关掉它。不会有老板电话的，就5分钟而已；</li>
+<li>一旦开始行动，专注于做这件事情。此时此刻，这世上没有比做这件事更重要的了；</li>
+<li>当你想去做些其他琐事的时候，停下来。只是去观察自己的这种感觉，但千万别真的去做它。不去做琐事也许会让你不爽。没关系，看着它，深呼吸，然后继续回去做你那件重要的事情；</li>
+<li>在5分钟（或10分钟）期间，一旦开小差，就重复步骤5；</li>
+<li>保持心情愉悦，只管去做。在做之前，你会认为困难重重不断拖延。可是一旦你开始下手去做，就会发现其实没有那么难。</li>
+</ol>
+<p>5～10分钟结束之后，你可以马上停止，去做那些让你感觉轻松自在的琐事。如果你进入状态，也可以继续做手上这件「重要的事」。按照我的经验，开了5分钟的好头以后，自己就会状态奇佳、进度飞快。</p>
+<p>如果你喜欢的话，可以在一天内不断重复这样的5-10分钟的「立刻行动」练习。</p>
+<h2 id="上个礼拜的情况"><a href="#上个礼拜的情况" class="headerlink" title="上个礼拜的情况"></a>上个礼拜的情况</h2><blockquote>
+<p>上个礼拜是习惯的的一天，基本上都执行了这个习惯，其实每天都有坚持就会有一点又特别又不是很特别的状态。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;改-变&quot;&gt;&lt;a href=&quot;#改-变&quot; class=&quot;headerlink&quot; title=&quot;改 变&quot;&gt;&lt;/a&gt;改 变&lt;/h2&gt;&lt;p&gt;每天进行5-10分钟的立刻行动时间。&lt;/p&gt;
+&lt;h2 id=&quot;理-由&quot;&gt;&lt;a href=&quot;#理-由&quot; class=&quot;headerli
+    
+    </summary>
+    
+    
+      <category term="habit" scheme="http://blog.xtwroot.com/tags/habit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>改变1：每日冥想</title>
+    <link href="http://blog.xtwroot.com/2017/06/21/%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98/%E6%94%B9%E5%8F%981%EF%BC%9A%E6%AF%8F%E6%97%A5%E5%86%A5%E6%83%B3/"/>
+    <id>http://blog.xtwroot.com/2017/06/21/五十二个改变/改变1：每日冥想/</id>
+    <published>2017-06-21T05:03:06.000Z</published>
+    <updated>2017-06-30T00:50:53.957Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="改-变"><a href="#改-变" class="headerlink" title="改 变"></a>改 变</h2><p>找个地方静坐2分钟（带上定时器），把注意力集中到你的呼吸上，这是一种简单的冥想。</p>
+<h2 id="理-由"><a href="#理-由" class="headerlink" title="理 由"></a>理 由</h2><p>（这里面可能会涉及一些佛教的用语，我试着用比较容易读懂的方法来解释。）</p>
+<p>冥想是练习正念的一种方法。在佛教里，正念被解释为能够平静思想、把注意力集中到当下和排除一切干扰的能力。</p>
+<p>所以，当你慢慢培养正念时，你会减轻压力，过得更加平和、安详，做事更专注、也更少犯低级错误，你会意识到身体、头脑、情绪都有积极的变化。</p>
+<p>培养正念是书中介绍的其他改变的基础（也是佛法中各种修行的基础哦）。也许在我们这种从小受了马克思唯物教育的同学来说，「每日冥想」这个改变很傻很土。可我真的强烈强烈再强烈地建议你学习这个改变。</p>
+<h2 id="步-骤"><a href="#步-骤" class="headerlink" title="步 骤"></a>步 骤</h2><ol>
+<li>每天只冥想2分钟，别贪多；</li>
+<li>用手机自带的时钟app计时；</li>
+<li>找一个安静的地方，舒服地坐下，也可以盘腿坐；</li>
+<li>不用贪多，只冥想2分钟。2分钟是再忙也能抽出来的时间；</li>
+<li>打开你的计时器；</li>
+<li><p>闭上眼睛，保持上半身挺直，不要挨着或靠着什么东西，像你平常那样呼吸。然后渐渐缓和下来，直到呼吸变得安静平稳；</p>
+<p>我刚开始冥想时，脑子里时不时有些杂念跑出来。此时不要压抑思考，如果有什么杂念要进入你的心，就让它进来吧。它不会待太久，放轻松，把心专注在一呼一吸上，很快你的心就会完全平静下来。如果你喜欢冥想的话，过几天后可以延长到5分钟或者更久。如果2分钟就让你坐立不安的话，就不要延长时间。</p>
+<p>只要持续进行「每日冥想」这种改变，你早晚会获得那种「没啥特别，又有点特别」的力量。</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;改-变&quot;&gt;&lt;a href=&quot;#改-变&quot; class=&quot;headerlink&quot; title=&quot;改 变&quot;&gt;&lt;/a&gt;改 变&lt;/h2&gt;&lt;p&gt;找个地方静坐2分钟（带上定时器），把注意力集中到你的呼吸上，这是一种简单的冥想。&lt;/p&gt;
+&lt;h2 id=&quot;理-由&quot;&gt;&lt;a href=
+    
+    </summary>
+    
+    
+      <category term="habit" scheme="http://blog.xtwroot.com/tags/habit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《五十二个改变》-- 让生活没那么无聊</title>
+    <link href="http://blog.xtwroot.com/2017/06/21/%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98/%E3%80%8A%E4%BA%94%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%94%B9%E5%8F%98%E3%80%8B-%E8%AE%A9%E7%94%9F%E6%B4%BB%E6%B2%A1%E9%82%A3%E4%B9%88%E6%97%A0%E8%81%8A/"/>
+    <id>http://blog.xtwroot.com/2017/06/21/五十二个改变/《五十二个改变》-让生活没那么无聊/</id>
+    <published>2017-06-21T05:00:06.000Z</published>
+    <updated>2017-06-29T10:04:10.241Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用这本书的说明"><a href="#使用这本书的说明" class="headerlink" title="使用这本书的说明"></a>使用这本书的说明</h2><p>就像购买iphone会附带说明书一样，我也写了一段关于使用这本书的说明书。我自己买手机的时候，是从来不看说明书的。估计你们跟我也差不多。不过这次有点不同，我还是诚挚建议你在读之前，阅读下这段说明。</p>
+<ol>
+<li>每周只尝试一个改变，贪多嚼不烂。同时进行多个改变的人，除非你拥有许三多那样的毅力，否则最后一个都坚持不来的；</li>
+<li>从小开始，不期速成。比如你宅了很久没运动，就不要马上跑30分钟，改为「今天先跑2分钟、之后每天加量2分钟的方法」。步子迈得太大，会扯着蛋的；</li>
+<li>这不是小时候老妈子逼你学钢琴，选自己喜欢的改变，享受过程。打心底讨厌的话，估计你坚持不了3天就放弃了；</li>
+<li>重复。如果失败了，找出不能坚持这个改变的原因，试着改进方法继续重复这个改变（也可以换个新的重新来）；</li>
+<li>选择适合你的时间点。这些变化别在你生活中强行插入，要顺势而为。如你要进行「健走」这个改变，晚饭或者午餐后是个不错的时间点。但是早上6点就不是一个好的时间点（你得挣扎多久才能起床啊）。</li>
+</ol>
+<p>这52个改变并非适合所有人。比如你已经养成散步习惯，在改变3：健走的一周就可以直接跳过，或者休息一周。</p>
+<p>你也可以选择其中10个、20个自己喜欢的改变，然后2～3周只专注于这1个改变。或者只选择其中的12个改变，然后每个月尝试1个。</p>
+<p>怎么来都行，随你。虽然你不用按顺序尝试52个改变，不过我个人还是强烈强烈再强烈地建议，将「每日冥想」作为你进行的第一个改变。</p>
+<hr>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><blockquote>
+<p>今天是2017年6月21日，其实也没有什么特别的。但是，如果我把现在这件事完成了，那这天对我来说就会很特别。从出生到现在从来不特意去过生日，也没有觉得一年中的拿一天会比较特别，为了让自己无聊的生活变的有趣味一点，我决定开始为自己制造一些特别的日子。也算是对我以往无所事事的生活进行一次尝试性的摆脱把。因为懒癌，我当然不会故意刁难自己去弄一个什么就死一生的挑战，从网上随便找了一本书，撸起袖子干吧。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;使用这本书的说明&quot;&gt;&lt;a href=&quot;#使用这本书的说明&quot; class=&quot;headerlink&quot; title=&quot;使用这本书的说明&quot;&gt;&lt;/a&gt;使用这本书的说明&lt;/h2&gt;&lt;p&gt;就像购买iphone会附带说明书一样，我也写了一段关于使用这本书的说明书。我自己买手机的时候
+    
+    </summary>
+    
+    
+      <category term="habit" scheme="http://blog.xtwroot.com/tags/habit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿昌族</title>
+    <link href="http://blog.xtwroot.com/2017/06/07/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E9%98%BF%E6%98%8C%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/07/每日民族/阿昌族/</id>
+    <published>2017-06-07T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:05.499Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/1%E3%80%81%E9%98%BF%E6%98%8C%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>阿昌族主要居住在云南省德宏傣族景颇族自治州的陇川和梁河县。阿昌族自古以擅种水稻而闻名。阿昌族是中国云南境内最早的世居民族之一。古代汉文史籍曾 记载的 “ 峨昌 “，” 娥昌 “，” 莪昌 “ 或 “ 阿昌 “，” 萼昌 “ 等，都是对阿昌族不同时期的称谓。新中国成立后，根据本民族的意愿，统称为阿昌族。阿昌族有自己的语言，属汉藏语系藏缅语族。由于长期和汉，傣等民族交错 杂居，所以阿昌人一般又能讲汉语，傣语。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>阿昌族聚居于云南。阿昌族男子穿对襟上衣，黑色长裤，未婚男子缠白色包头，已婚青壮年男子缠藏青色包头。妇女穿窄长袖对襟衫，下着裙。 未婚女子梳辨盘于头顶，已婚妇女束髻，缠高耸的包头。妇女喜戴各种银饰。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/1%E3%80%81%E9%98%BF%E6%98%8C%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>白族</title>
+    <link href="http://blog.xtwroot.com/2017/06/06/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E7%99%BD%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/06/每日民族/白族/</id>
+    <published>2017-06-06T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:10.888Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/2%E3%80%81%E7%99%BD%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>白族主要聚居在云南省西部以洱海为中心的大理白族自治州。少部分散居在四川、 贵州、湖南等地。由于白族风俗尚白，历史上曾 有 “ 白人 “、 白王 “、 白史 “ 之称。 “ “ 新中国成立后， 正式定名为白族。白族有自己的语言，属汉藏语 系藏缅语族白语支。大多数白族通晓汉语，并作为与其他民族的交际工具。白族是个古老的民族， 有着自己光辉灿烂的科学文化。在天文、历法、 气象、医学、文学等领域都有许多发明创造和优 秀作品。  </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>白族主要聚居在云南大理，苍山洱海风景秀丽，民族文化较为发达。白族男女均上着衣、外套领褂，下着裤。服装颜色的搭配简单鲜明，对比协调。白族人 民崇尚白色。男子的包头、女子的帽箍，男女上衣，甚至裤子都喜用白色或接近白色的浅绿、浅蓝等色。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/2%E3%80%81%E7%99%BD%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;/p&gt;
+&lt;/div
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>保安族</title>
+    <link href="http://blog.xtwroot.com/2017/06/05/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E4%BF%9D%E5%AE%89%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/05/每日民族/保安族/</id>
+    <published>2017-06-05T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:16.710Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/3%E3%80%81%E4%BF%9D%E5%AE%89%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>保安族主要聚居在甘肃省积石山保安族东乡族撒拉族自治县。“保安”是保安族的 自称，历史上曾被称作“回回”，“保安回”等。 新中国成立后，根据本民族人民的意愿，正式定名为保安族。保安族有本民族的语言，无文字。保安语属阿尔泰语系蒙古语族，大多数人通晓汉语。保安族信仰伊斯 兰教，在家庭生活习俗及社 会等方面与当地回，东乡等民族大体相同。保安族主要从事农业生产，兼营牧业和手工业。很早就会冶铁的保安族，有着高超的制刀技艺，他们制作的腰刀，锋利耐 用，精致美观，在当地各族群众中享有盛名，被称作“保安刀”。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>保安族居住在甘肃省内大河家地区。 保安族男子，穿白布衫，外套青布坎肩，下穿深色长裤，头戴白或黑色圆顶帽，在节日里穿长袍。 女子穿色彩艳丽的衣裤，上衣为刚过双膝的有花边的大襟袄，外套坎肩，戴头盖，也戴礼帽。保安族的腰刀很有特色，制作精美，是保安族人人喜爱之物。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/3%E3%80%81%E4%BF%9D%E5%AE%89%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>布朗族</title>
+    <link href="http://blog.xtwroot.com/2017/06/04/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E5%B8%83%E6%9C%97%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/04/每日民族/布朗族/</id>
+    <published>2017-06-04T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:21.721Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/4%E3%80%81%E5%B8%83%E6%9C%97%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>布朗族是云南的独有民族之一，分布在云南省西部和西南部沿澜沧江中下游西侧的山岳 地带，主要聚居地是双版纳傣族自治州动海县布朗、 打洛等山区，云县、镇康、德、双江、耿马、澜沧、墨江、景东等县亦有部分散居或杂。布朗族聚居地群山起伏，气候暖和，降水较多，土地肥沃，物产丰富。</p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>布朗族分布在云南西部和西南部。布朗族男子上穿青布圆领长袖对襟或大襟衣，下着宽 脚裤。妇女上着紧身短衫，下着筒裙，也有着长裤的。妇女均喜欢戴银饰。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/4%E3%80%81%E5%B8%83%E6%9C%97%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>布依族</title>
+    <link href="http://blog.xtwroot.com/2017/06/03/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E5%B8%83%E4%BE%9D%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/03/每日民族/布依族/</id>
+    <published>2017-06-03T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:26.860Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/5%E3%80%81%E5%B8%83%E4%BE%9D%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>布依族主要聚居在贵州省黔西南两个布依族苗族自治州，以及贵州的都匀，独山，平塘， 镇宁等 10 个县 ( 市 )。布依语属汉藏语系壮侗语族壮傣语支。布依语和壮语有密切的亲属关系。布依 族过去没有文字，一直使用汉文。解放后，人民政府为布依族创制了用拉丁字母拼音的布依文。布依族地区山青水秀，自然风光多姿多彩，野生动植物资源及矿产资 源也很丰富。布依族以农业为主，种植水稻的历史较为悠久。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>布依族居住在我国西南地区的盘江、 红水河流域。布依族男子常穿短衣长裤，盛装时着 长衫，戴瓜皮帽。妇女则上着短衣，下着百褶裙或长裤，戴银饰。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/5%E3%80%81%E5%B8%83%E4%BE%9D%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>藏族</title>
+    <link href="http://blog.xtwroot.com/2017/06/02/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E8%97%8F%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/02/每日民族/藏族/</id>
+    <published>2017-06-02T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:31.732Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/6%E3%80%81%E8%97%8F%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>藏族是中华民族的重要一员，分布于辽阔的青藏高原。主要聚居在西藏自治区，以及 青海省的海北、黄南、海南、果洛、玉树等藏族自治州和海西蒙古族藏族自治州，甘肃省的甘南藏族 自治州和天祝藏族自治县，四川省的阿坝、甘孜两个藏族自治州和木里藏族自治县，云南省的迪庆藏 族自治州。藏族有自己的语言和文字，藏语，属汉藏语系藏缅语族藏语支，分为卫藏方言、康方言、 安多方言 3 种主要方言。藏文系参照梵文某些字体于公元 7 世纪前期创制，经过三次修订发展而来，为自左向右横写的拼音文字，通用至今。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>藏族服饰的基本结构为肥 腰、长袖、大襟长袍，穿这种肥大的衣服夜间可以 和衣而眠，袍袖宽敞，臂膀伸缩自如，既防寒又便 于起居，白天气温上升，便可脱出一条臂膀，方便 散热。久之，脱一袖的装束便成了藏族服装特有的 风度。妇女通常梳发辨，戴头饰和发套。各地男女均穿氆氇或牛皮靴。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/6%E3%80%81%E8%97%8F%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;/p&gt;
+&lt;/div
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>《好好学习》</title>
+    <link href="http://blog.xtwroot.com/2017/06/02/Books/%E3%80%8A%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0%E3%80%8B/"/>
+    <id>http://blog.xtwroot.com/2017/06/02/Books/《好好学习》/</id>
+    <published>2017-06-02T06:59:55.000Z</published>
+    <updated>2017-06-02T07:04:13.008Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="关于本书："><a href="#关于本书：" class="headerlink" title="关于本书："></a>关于本书：</h3><blockquote>
+<p>这是一本讲学习方法，讲如何管理自己知识的书。它将帮助你把零碎的知识打造成为高效的知识管理体系，构建你的学习竞争力，让所学知识真正变成你的资产，让学习成为财富积累的过程。</p>
+</blockquote>
+<h4 id="一、什么是知识？"><a href="#一、什么是知识？" class="headerlink" title="一、什么是知识？"></a>一、什么是知识？</h4><h5 id="1．信息和知识的区别"><a href="#1．信息和知识的区别" class="headerlink" title="1．信息和知识的区别"></a>1．信息和知识的区别</h5><p>只有那些能够改变你行动或者认知的信息才是知识，否则它只是信息。</p>
+<h5 id="2．低水平的勤奋"><a href="#2．低水平的勤奋" class="headerlink" title="2．低水平的勤奋"></a>2．低水平的勤奋</h5><p>努力但效率很低，进步很慢的学习，就是低水平的勤奋。</p>
+<p>比如，有的人读了很多书，上了很多培训课，但是能力仍然提升不起来。</p>
+<h4 id="二、如何高效学习"><a href="#二、如何高效学习" class="headerlink" title="二、如何高效学习"></a>二、如何高效学习</h4><h5 id="1．两种学习效率"><a href="#1．两种学习效率" class="headerlink" title="1．两种学习效率"></a>1．两种学习效率</h5><h6 id="（1）技术效率"><a href="#（1）技术效率" class="headerlink" title="（1）技术效率"></a>（1）技术效率</h6><p>不断学习解决具体场景下问题的学习方式，归类为提升技术效率。在技术效率层面去解决问题的水平比较低。</p>
+<h6 id="（2）认知效率"><a href="#（2）认知效率" class="headerlink" title="（2）认知效率"></a>（2）认知效率</h6><p>在解决任务的时候，不仅掌握了解决的办法，还弄明白了这类问题背后的规律，这种努力方式就归类为提升认知效率。</p>
+<h5 id="2．一个观点，两个假设"><a href="#2．一个观点，两个假设" class="headerlink" title="2．一个观点，两个假设"></a>2．一个观点，两个假设</h5><blockquote>
+<p>关于学习方法的观点：多花时间去研究事物背后的规律，从规律入手进行学习，效率才会更高。这个观点是建立在两个假设基础之上。</p>
+</blockquote>
+<h6 id="（1）假设一：世界上大部分领域，看似复杂的现象其实往往是由少数重要的规律决定的。也就是说假设复杂现象背后是简单的规律。本书也是建立在这个假设基础之上。"><a href="#（1）假设一：世界上大部分领域，看似复杂的现象其实往往是由少数重要的规律决定的。也就是说假设复杂现象背后是简单的规律。本书也是建立在这个假设基础之上。" class="headerlink" title="（1）假设一：世界上大部分领域，看似复杂的现象其实往往是由少数重要的规律决定的。也就是说假设复杂现象背后是简单的规律。本书也是建立在这个假设基础之上。"></a>（1）假设一：世界上大部分领域，看似复杂的现象其实往往是由少数重要的规律决定的。也就是说假设复杂现象背后是简单的规律。本书也是建立在这个假设基础之上。</h6><h6 id="（2）假设二：世界上各个事物之间的关系，不是简单的因果关系，而是彼此相互联系、互相影响的。"><a href="#（2）假设二：世界上各个事物之间的关系，不是简单的因果关系，而是彼此相互联系、互相影响的。" class="headerlink" title="（2）假设二：世界上各个事物之间的关系，不是简单的因果关系，而是彼此相互联系、互相影响的。"></a>（2）假设二：世界上各个事物之间的关系，不是简单的因果关系，而是彼此相互联系、互相影响的。</h6><h5 id="3．临界知识"><a href="#3．临界知识" class="headerlink" title="3．临界知识"></a>3．临界知识</h5><p>通过学习和掌握少数重要但是影响广泛的规律，并以此建立的认知，应用在各个领域中，就能形成自己的跨界竞争优势。而这些能够在各个领域广泛应用的重要基本规律，被称为临界知识。</p>
+<p>如果能够在学习的过程中优先主动地掌握临界知识，掌握事物背后重要的基本规律，那学习效率就会高得多。</p>
+<h4 id="三、如何掌握临界知识"><a href="#三、如何掌握临界知识" class="headerlink" title="三、如何掌握临界知识"></a>三、如何掌握临界知识</h4><h5 id="1-基本原则"><a href="#1-基本原则" class="headerlink" title="1.基本原则"></a>1.基本原则</h5><p>掌握临界知识的基本原则是：要了解知识的可靠性和局限性。要确保这个规律是可靠，经过了广泛地验证，并且清楚这个规律的适用和不适用的领域。</p>
+<p>优先使用“硬科学”的规律。所谓硬科学，是相对软科学而言。硬科学是指数学、物理、化学、生物学这样的学科，而软科学是指社会学这类的学科。</p>
+<h5 id="2-三个底层方法"><a href="#2-三个底层方法" class="headerlink" title="2.三个底层方法"></a>2.三个底层方法</h5><h6 id="（1）刻意练习"><a href="#（1）刻意练习" class="headerlink" title="（1）刻意练习"></a>（1）刻意练习</h6><p>如果你要掌握某一领域的知识，那么你可以去寻求这个领域一流的导师，然后学习他是怎么思考和解决问题的。坚持这样刻意练习，往往就能够更快速地发现和掌握问题背后的规律，理解一点就通达一篇，从而极大地提高学习的效率。（如果对刻意练习感兴趣，也可以在「得到」APP搜索“刻意练习”4个字。）</p>
+<h6 id="（2）反思"><a href="#（2）反思" class="headerlink" title="（2）反思"></a>（2）反思</h6><p>总结不是反思。反思是对产生结果的原因进行分析，反思的实质是对假设进行校正。比如，反复思考研究当初做这个决策的依据是什么，为什么是这样，当初的假设正确吗？</p>
+<h6 id="（3）以教为学"><a href="#（3）以教为学" class="headerlink" title="（3）以教为学"></a>（3）以教为学</h6><p>把教别人当成自己学习的过程。因为我们为了让自己能够教别人，就要做大量的准备，以防被别人问倒。而我们不去教别人的时候，往往就偷懒，没这个动力。</p>
+<h5 id="3-三个学习技巧"><a href="#3-三个学习技巧" class="headerlink" title="3.三个学习技巧"></a>3.三个学习技巧</h5><h6 id="（1）记录：记录和写下来是不一样的。"><a href="#（1）记录：记录和写下来是不一样的。" class="headerlink" title="（1）记录：记录和写下来是不一样的。"></a>（1）记录：记录和写下来是不一样的。</h6><p>一个好的记录，要做到两点：第一点，要记录整个事情发展的过程；第二点，主动地记录看不见的关系，而不仅仅是记录流水账。</p>
+<h6 id="（2）定期回顾：一方面的原因是，时间一久，我们很容易忘掉学的东西；另一方面，很多事情发生的原因和最后的结果之间时间间隔很长。如果不去回顾，往往没有意识到这两者之间其实是有联系的。"><a href="#（2）定期回顾：一方面的原因是，时间一久，我们很容易忘掉学的东西；另一方面，很多事情发生的原因和最后的结果之间时间间隔很长。如果不去回顾，往往没有意识到这两者之间其实是有联系的。" class="headerlink" title="（2）定期回顾：一方面的原因是，时间一久，我们很容易忘掉学的东西；另一方面，很多事情发生的原因和最后的结果之间时间间隔很长。如果不去回顾，往往没有意识到这两者之间其实是有联系的。"></a>（2）定期回顾：一方面的原因是，时间一久，我们很容易忘掉学的东西；另一方面，很多事情发生的原因和最后的结果之间时间间隔很长。如果不去回顾，往往没有意识到这两者之间其实是有联系的。</h6><h6 id="（3）付费学习：一方面是指通过“买时间”来增加有效学习时间；另一方面是指，通过买“高质量的知识产品”或“向专家付费”获得咨询建议，来提高学习效率。"><a href="#（3）付费学习：一方面是指通过“买时间”来增加有效学习时间；另一方面是指，通过买“高质量的知识产品”或“向专家付费”获得咨询建议，来提高学习效率。" class="headerlink" title="（3）付费学习：一方面是指通过“买时间”来增加有效学习时间；另一方面是指，通过买“高质量的知识产品”或“向专家付费”获得咨询建议，来提高学习效率。"></a>（3）付费学习：一方面是指通过“买时间”来增加有效学习时间；另一方面是指，通过买“高质量的知识产品”或“向专家付费”获得咨询建议，来提高学习效率。</h6><h4 id="金句："><a href="#金句：" class="headerlink" title="金句："></a>金句：</h4><blockquote>
+<p>1.我们读的书并不一定是知识，只有改变了我们生活的信息才是知识。</p>
+<p>2.对于学习临界知识而言，首先要掌握的是底层思维和方法，其次才是具体的知识和技能。</p>
+<p>3.每个人都应当有自己的框架来安排自己的临界知识，不过，确实有一些重要的临界知识是通用的，比如复利效应、概率论、系统思考等等。</p>
+<p>4.你只有知道一个知识的局限性，才配得上真正拥有这个知识，如果你不知道一个知识的适用边界就每天用它解决问题，那这个知识对你而言就太危险了。</p>
+<p>5.有时候，慢就是快。你只有把基本功打扎实，才能快起来，在最重要的地基上面花时间是必须做的。</p>
+</blockquote>
+<hr>
+<p><img src="http://www.xtwroot.top/0405%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0.jpg" alt="image"></p>
+<hr>
+<p><a href="http://www.xtwroot.top/0405%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0.mp3" target="_blank" rel="external">音频</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;关于本书：&quot;&gt;&lt;a href=&quot;#关于本书：&quot; class=&quot;headerlink&quot; title=&quot;关于本书：&quot;&gt;&lt;/a&gt;关于本书：&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;这是一本讲学习方法，讲如何管理自己知识的书。它将帮助你把零碎的知识打造成为高效的知识管理体
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="http://blog.xtwroot.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Books" scheme="http://blog.xtwroot.com/tags/Books/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《零秒思考》</title>
+    <link href="http://blog.xtwroot.com/2017/06/02/Books/%E3%80%8A%E9%9B%B6%E7%A7%92%E6%80%9D%E8%80%83%E3%80%8B/"/>
+    <id>http://blog.xtwroot.com/2017/06/02/Books/《零秒思考》/</id>
+    <published>2017-06-02T03:39:22.000Z</published>
+    <updated>2017-06-02T03:23:19.118Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、零秒思考的操作方法"><a href="#一、零秒思考的操作方法" class="headerlink" title="一、零秒思考的操作方法"></a>一、零秒思考的操作方法</h2><h3 id="1-零秒思考的步骤"><a href="#1-零秒思考的步骤" class="headerlink" title="1. 零秒思考的步骤"></a>1. 零秒思考的步骤</h3><h4 id="（1）拿出一张A4纸，把它横着放；"><a href="#（1）拿出一张A4纸，把它横着放；" class="headerlink" title="（1）拿出一张A4纸，把它横着放；"></a>（1）拿出一张A4纸，把它横着放；</h4><h4 id="（2）把你头脑中的想法写到A4纸的左上角，作为标题；"><a href="#（2）把你头脑中的想法写到A4纸的左上角，作为标题；" class="headerlink" title="（2）把你头脑中的想法写到A4纸的左上角，作为标题；"></a>（2）把你头脑中的想法写到A4纸的左上角，作为标题；</h4><h4 id="（3）在标题旁边写下当天的日期；"><a href="#（3）在标题旁边写下当天的日期；" class="headerlink" title="（3）在标题旁边写下当天的日期；"></a>（3）在标题旁边写下当天的日期；</h4><h4 id="（4）在标题下面画一条横线，进行页面分隔，横线下面就写你对于这个想法思考的内容。"><a href="#（4）在标题下面画一条横线，进行页面分隔，横线下面就写你对于这个想法思考的内容。" class="headerlink" title="（4）在标题下面画一条横线，进行页面分隔，横线下面就写你对于这个想法思考的内容。"></a>（4）在标题下面画一条横线，进行页面分隔，横线下面就写你对于这个想法思考的内容。</h4><p>把整个过程控制在1分钟之内。如果你又产生了一个新的想法，你就再拿出一张A4纸，照着这几步做就OK了。</p>
+<h3 id="2-怎么写标题"><a href="#2-怎么写标题" class="headerlink" title="2. 怎么写标题"></a>2. 怎么写标题</h3><h4 id="（1）标题要问题化：记录想法最好用疑问句的形式写下来。一旦我们把标题写成疑问句，这个问题就会刺激大脑主动思考，寻找答案了。"><a href="#（1）标题要问题化：记录想法最好用疑问句的形式写下来。一旦我们把标题写成疑问句，这个问题就会刺激大脑主动思考，寻找答案了。" class="headerlink" title="（1）标题要问题化：记录想法最好用疑问句的形式写下来。一旦我们把标题写成疑问句，这个问题就会刺激大脑主动思考，寻找答案了。"></a>（1）标题要问题化：记录想法最好用疑问句的形式写下来。一旦我们把标题写成疑问句，这个问题就会刺激大脑主动思考，寻找答案了。</h4><h4 id="（2）注意事项：一个标题一页纸，别怕浪费尽管写。有想法就写下来，写重合也不要怕。"><a href="#（2）注意事项：一个标题一页纸，别怕浪费尽管写。有想法就写下来，写重合也不要怕。" class="headerlink" title="（2）注意事项：一个标题一页纸，别怕浪费尽管写。有想法就写下来，写重合也不要怕。"></a>（2）注意事项：一个标题一页纸，别怕浪费尽管写。有想法就写下来，写重合也不要怕。</h4><h3 id="3-怎么写内容"><a href="#3-怎么写内容" class="headerlink" title="3. 怎么写内容"></a>3. 怎么写内容</h3><h4 id="（1）每条内容字数最好在20-40个字之间。字太少不利于整理思路。"><a href="#（1）每条内容字数最好在20-40个字之间。字太少不利于整理思路。" class="headerlink" title="（1）每条内容字数最好在20-40个字之间。字太少不利于整理思路。"></a>（1）每条内容字数最好在20-40个字之间。字太少不利于整理思路。</h4><h4 id="（2）内容行数不能太多，最好4到6行。写太多容易没有重点，不利于形成清晰的思考。"><a href="#（2）内容行数不能太多，最好4到6行。写太多容易没有重点，不利于形成清晰的思考。" class="headerlink" title="（2）内容行数不能太多，最好4到6行。写太多容易没有重点，不利于形成清晰的思考。"></a>（2）内容行数不能太多，最好4到6行。写太多容易没有重点，不利于形成清晰的思考。</h4><h4 id="（3）一条内容最好包括这些要素：条件、谁、做什么、产生什么后果。"><a href="#（3）一条内容最好包括这些要素：条件、谁、做什么、产生什么后果。" class="headerlink" title="（3）一条内容最好包括这些要素：条件、谁、做什么、产生什么后果。"></a>（3）一条内容最好包括这些要素：条件、谁、做什么、产生什么后果。</h4><h3 id="4-注意控制时间"><a href="#4-注意控制时间" class="headerlink" title="4. 注意控制时间"></a>4. 注意控制时间</h3><p>作者要求在一张A4纸上写标题和内容的时间，加起来不能超过1分钟。有了时间限制，反而会激发效率，让你更有行动力。</p>
+<h2 id="二、掌握零秒思考的关键点"><a href="#二、掌握零秒思考的关键点" class="headerlink" title="二、掌握零秒思考的关键点"></a>二、掌握零秒思考的关键点</h2><h3 id="1-深挖洞"><a href="#1-深挖洞" class="headerlink" title="1. 深挖洞"></a>1. 深挖洞</h3><p>是指想到一个问题的时候，你可以不断地去深入思考这个问题，从一页纸的想法不断衍生出第二页纸、第三页纸、第四页纸……直到把一个问题想透。具体操作上，就是把这些深入思考的原因再进一步当作新的标题来思考，形成新的A4纸笔记。</p>
+<h3 id="2-广积粮"><a href="#2-广积粮" class="headerlink" title="2. 广积粮"></a>2. 广积粮</h3><p>如果说深挖洞是从一个问题不断层层推演，想得越来越深入，那么广积粮就是对同一个事情，从不同角度提问，把和这个事情相关的各个因素和角度都考虑全面。</p>
+<h3 id="3-再回顾"><a href="#3-再回顾" class="headerlink" title="3. 再回顾"></a>3. 再回顾</h3><p>是指回顾这些笔记的频率，作者的建议是“零三六回顾法”。通过比较、审视自己对同一个问题的认识和过去有什么差别，能够进一步帮助自己改进思考的方式。</p>
+<p>（1）零回顾：平时不用回顾；</p>
+<p>（2）三月回顾：三个月以后回顾；</p>
+<p>（3）六月回顾：六个月以后回顾。</p>
+<p>之后原则上不用再回顾以前写过的笔记了。</p>
+<h2 id="三、零秒思考为什么会起作用"><a href="#三、零秒思考为什么会起作用" class="headerlink" title="三、零秒思考为什么会起作用"></a>三、零秒思考为什么会起作用</h2><h3 id="1-应用了大脑记忆原理"><a href="#1-应用了大脑记忆原理" class="headerlink" title="1. 应用了大脑记忆原理"></a>1. 应用了大脑记忆原理</h3><p>大脑最多只能同时记住四个组块的信息，也就是一旦信息超过四个以上，大脑就处理不过来。解决办法就是把大脑中的想法存储在外部。把头脑中浮现的内容写到A4纸上，其实就是在清空大脑，减轻大脑混乱思考的压力，从而提高思考的能力和效率。</p>
+<h3 id="2-遵循了微习惯启动原理"><a href="#2-遵循了微习惯启动原理" class="headerlink" title="2. 遵循了微习惯启动原理"></a>2. 遵循了微习惯启动原理</h3><p>启动习惯一定要非常的容易，才更有可能被坚持下来。零秒思考的方法操作很简单，让你1分钟内把一个想法写下来，写4到6行字，这样的事情对绝大多数人来说是没有压力的。零秒思考就是在运用微启动的原理，帮大家迂回地训练“麦肯锡金字塔”思考的能力。</p>
+<p> “每天听本书”栏目在《微习惯》这期节目中也讲过这个原理，即要让一个习惯能够坚持下来，一定要让这个习惯小到你没有任何障碍去采取行动。</p>
+<h3 id="3-综合调动了手眼脑"><a href="#3-综合调动了手眼脑" class="headerlink" title="3. 综合调动了手眼脑"></a>3. 综合调动了手眼脑</h3><p>首先，把想法转化成疑问，其实就是促进大脑思考问题的过程。其次，在写内容回答问题的时候，零秒思考又是一个可视化的过程：通过把脑袋中零碎的想法，梳理成4到6条、每条20到40字的清晰文字表述，整个过程其实是一个调动手眼脑同步协调的过程。</p>
+<p>金句：</p>
+<blockquote>
+<ol>
+<li><p>想训练零秒思考的能力，就要把完成时间控制在1分钟内。有了时间限制，反而会激发效率，让你更有行动力。</p>
+</li>
+<li><p>深入思考其实就是要归纳总结。</p>
+</li>
+<li><p>大脑最多只能同时记住四个组块的信息，将大脑中的想法存储在外部，能减轻大脑混乱思考的压力，从而提高思考力和效率。</p>
+</li>
+<li><p>启动习惯一定要非常容易才行。</p>
+</li>
+</ol>
+</blockquote>
+<hr>
+<p><img src="http://www.xtwroot.top/%E3%80%8A%E9%9B%B6%E7%A7%92%E6%80%9D%E8%80%83%E3%80%8B.jpg" alt="image"></p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、零秒思考的操作方法&quot;&gt;&lt;a href=&quot;#一、零秒思考的操作方法&quot; class=&quot;headerlink&quot; title=&quot;一、零秒思考的操作方法&quot;&gt;&lt;/a&gt;一、零秒思考的操作方法&lt;/h2&gt;&lt;h3 id=&quot;1-零秒思考的步骤&quot;&gt;&lt;a href=&quot;#1-零秒思考的步
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="http://blog.xtwroot.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Books" scheme="http://blog.xtwroot.com/tags/Books/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>朝鲜族</title>
+    <link href="http://blog.xtwroot.com/2017/06/01/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E6%9C%9D%E9%B2%9C%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/06/01/每日民族/朝鲜族/</id>
+    <published>2017-06-01T13:35:04.000Z</published>
+    <updated>2017-06-04T13:10:44.037Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/7%E3%80%81%E6%9C%9D%E9%B2%9C%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>中国的朝鲜族是明末清初从朝鲜半岛移居东北形成的。其文化与朝鲜半岛有着深厚的渊源关系。朝鲜族男子的上衣为斜襟、宽袖，前襟有飘带，他们还喜欢穿“背褂”（坎肩）和灯笼裤，这种裤子很肥 大，便于在炕上盘腿而坐。妇女多穿短衣长裙，上衣与男子相似，只是更加短小。除日常服装外，还有周岁礼服、结婚礼服、丧服等各种礼服。朝鲜族儿童多穿七彩 衣，色彩斑斓，好象彩虹在身。青年男子多戴鸭舌帽，中捞年人则戴毡帽，妇女普遍戴花色头巾。朝鲜族男子常穿宽大的长方形胶鞋，妇女多穿鞋头尖而跷起的船形胶鞋。</p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>中国的朝鲜族是明末清初从朝鲜半岛移 居东北形成的。其文化与朝鲜半岛有着深厚的渊源关系。朝鲜族男子的上衣为斜襟、宽袖，前襟有飘带，他们还喜欢穿“背褂”（坎肩）和灯笼裤，这种裤子很肥 大，便于在炕上盘腿而坐。妇女多穿短衣长裙，上衣与男子相似，只是更加短小。除日常服装外，还有周岁礼服、结婚礼服、丧服等各种礼服。朝鲜族儿童多穿七彩 衣，色彩斑斓，好象彩虹在身。青年男子多戴鸭舌帽，中捞年人则戴毡帽，妇女普遍戴花色头巾。朝鲜族男子常穿宽大的长方形胶鞋，妇女多穿鞋头尖而跷起的船形胶鞋。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/7%E3%80%81%E6%9C%9D%E9%B2%9C%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>达翰尔族</title>
+    <link href="http://blog.xtwroot.com/2017/05/31/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E8%BE%BE%E7%BF%B0%E5%B0%94%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/05/31/每日民族/达翰尔族/</id>
+    <published>2017-05-31T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:43.018Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/8%E3%80%81%E8%BE%BE%E6%96%A1%E5%B0%94%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>达翰尔族主要生活在中国内蒙古地区的呼伦贝尔盟和东北地区的嫩江两岸，从事农 业和畜牧业、渔猎业。 达翰尔 “ 是 “ 耕耘者 “ 之意。 “ 达翰尔族人相传祖先居住在东北地区，清朝时被调到西域，从而在内蒙古一代一代定居下来，会说蒙古话。在新疆长期和哈萨克族人杂居的达翰尔族人都会讲哈萨克 话，而孩子们多数进入汉语学校学习，因此精通语言，被称为 “ 天生的翻译 “。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>达斡尔族主要聚居在嫩江两岸，在东北诸民族中，是社会 发展水平较高、与外界经 济文化接触和交流较多的民族之一。达斡尔族的服装式样以袍式为主，为便于骑马，袍前后两面开衩。男装以皮质为主，女装以棉布居多。达斡尔族妇女的发式和装 饰品各地不一，有的用白布或白毛布包头，有的戴头饰。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/8%E3%80%81%E8%BE%BE%E6%96%A1%E5%B0%94%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>傣族</title>
+    <link href="http://blog.xtwroot.com/2017/05/30/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E5%82%A3%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/05/30/每日民族/傣族/</id>
+    <published>2017-05-30T13:35:04.000Z</published>
+    <updated>2017-06-04T12:17:51.173Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/9%E3%80%81%E5%82%A3%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>傣族主要聚居在云南省西部边境的弧形地带，西双版纳傣族治州德宏傣族景颇族自治州以及耿马，孟连，元江，新平等自治县。傣族历史悠久。在汉代，傣族先 民称为 “ 滇越 “，清代多称 “ 摆夷 “，新中国成立后，根据傣族人民的意愿，正式定名为傣族。傣语属于汉藏语系壮侗语族壮傣语支。傣文都从印度字母脱化而来。长期以来，聪明智慧的傣家人用这 些文字，记载着傣族深渊的文化和历史。傣族有 “ 旱傣 “，” 水傣 “，” 花腰傣 “ 之分，不同的装饰代表着其支系的服饰文化。</p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>傣族多居住在我为云南的亚热带地区， 擅长农耕和水稻种植。傣族人在生活习俗、宗教信 仰等方面融合了中原和印度及中南半岛诸国文化。 傣族男子多穿圆领大襟或对襟小衫，下着长裤，白布或蓝布包头。妇女穿长筒裙和短衫，梳各种发式。 傣族人民崇拜孔雀和大象，常将孔雀和大象的图案编织在衣物上。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/9%E3%80%81%E5%82%A3%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;/p&gt;
+&lt;/div
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>徳昂族</title>
+    <link href="http://blog.xtwroot.com/2017/05/29/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E5%BE%B3%E6%98%82%E6%97%8F/"/>
+    <id>http://blog.xtwroot.com/2017/05/29/每日民族/徳昂族/</id>
+    <published>2017-05-29T13:35:04.000Z</published>
+    <updated>2017-07-20T03:30:20.502Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p><img src="http://images.xtwroot.top/10%E3%80%81%E5%BE%B3%E6%98%82%E6%97%8F.jpg" alt="image"></p>
+<hr>
+<div class="note info"><p>【简介】</p>
+</div>
+<blockquote>
+<p>徳昂族主要散居在云南省德宏傣族景颇族自治州的潞西县和临沧地区镇康县。德昂 族是西南边疆最古老的民族之一，渊源于古代的“濮人”。史书记载的“茫蛮部落”是德昂族的 先民。新中国成立后称崩龙族，1985 年，根据本民族的意愿，改名为德昂族。其宗教信仰，生活习俗，基本与傣族相同。德昂族有自己的语言，属南亚语系孟高棉语族佤昂语支。不少人通晓傣 语，汉语或景颇语。 </p>
+</blockquote>
+<hr>
+<div class="note info"><p>【服饰】</p>
+</div>
+<blockquote>
+<p>德昂族散居于云南省西南部，其 饰具有浓厚的民族特色。德昂族男子多穿蓝、黑色上衣和宽而短的裤子，裹黑、白头巾，巾的两端饰以彩色绒球；青年男子戴银项圈等饰物。妇女上着蓝、黑色上 衣，下着筒裙，在腰部佩戴数个腰箍。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/10%E3%80%81%E5%BE%B3%E6%98%82%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】
+    
+    </summary>
+    
+      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OKR目标管理方法</title>
+    <link href="http://blog.xtwroot.com/2017/04/11/%E6%97%B6%E9%97%B4%E8%BF%99%E4%B8%AA%E6%9C%8B%E5%8F%8B/OKR%E7%9B%AE%E6%A0%87%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    <id>http://blog.xtwroot.com/2017/04/11/时间这个朋友/OKR目标管理方法/</id>
+    <published>2017-04-10T16:15:10.000Z</published>
+    <updated>2017-06-02T07:02:46.959Z</updated>
+    
+    <content type="html"><![CDATA[<p>Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。</p>
+<p>每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以看到。如果谁没有制定OKR，一目了然，即使没有人催你，大家看到你的网页上是一片空白，你自己都不好意思。到了季度结束时，每个人都会给自己的目标完成情况打分。完成了，得分是1。部分完成，得分是0到1之间的一个数字。</p>
+<p>Google强调每一个人制定的目标要有挑战性，因此如果一个人完成目标的得分情况总是1，并不能说明他工作好，而是目标定得太低。大部分情况下，大家完成目标的得分在0.7－0.8左右。当然，一个季度开始的时候的想法，和后来完成的任务可能会有差异，早期没有想到的事情后来可能做了。因此，在总结季度工作时，可以增加当初没有制定的目标，对于不打算完成的目标，或者已经过时、不再有意义的目标，不能删除，但是可以说明为什么没有做。今天我就按照Google制定OKR的习惯，介绍我在2017年的目标。</p>
+<h3 id="目标1、养成第一个养成的习惯-不晚睡早起"><a href="#目标1、养成第一个养成的习惯-不晚睡早起" class="headerlink" title="目标1、养成第一个养成的习惯-不晚睡早起"></a>目标1、养成第一个养成的习惯-不晚睡早起</h3><pre><code>关键结果1.1、完成艾力早起团的目标
+关键结果1.2、每日火花的坚持
+</code></pre><h3 id="目标2、养成写作的习惯"><a href="#目标2、养成写作的习惯" class="headerlink" title="目标2、养成写作的习惯"></a>目标2、养成写作的习惯</h3><pre><code>关键结果2.1、技术博客20篇
+关键结果2.2、故事20篇
+关键结果2.3、读书笔记20篇-陆续配上脑图
+</code></pre><h3 id="目标3、在上半年完成基本知识的积累（农历七月前）"><a href="#目标3、在上半年完成基本知识的积累（农历七月前）" class="headerlink" title="目标3、在上半年完成基本知识的积累（农历七月前）"></a>目标3、在上半年完成基本知识的积累（农历七月前）</h3><pre><code>关键结果3.1、数据结构（C++）视频、书及练习
+关键结果3.2、Java编程思想、威哥Java视频
+关键结果3.3、威哥Android视频、官方文档一遍
+关键结果3.4、完成碎梦时间的开发、并发布到应用商店
+</code></pre><h3 id="目标4、保质保量完成团队项目"><a href="#目标4、保质保量完成团队项目" class="headerlink" title="目标4、保质保量完成团队项目"></a>目标4、保质保量完成团队项目</h3><pre><code>关键结果4.1、消防项目的图像处理模块及UI（得等素材）
+关键结果4.2、大创项目的申报及前期准备工作 
+关键结果4.3、大创项目的开发 
+</code></pre><h3 id="目标5、认真学好专业课程及独立完成作业"><a href="#目标5、认真学好专业课程及独立完成作业" class="headerlink" title="目标5、认真学好专业课程及独立完成作业"></a>目标5、认真学好专业课程及独立完成作业</h3><pre><code>关键结果5.1、NationDaily的网络模块及ui设计 
+关键结果5.2、计算机图形学的课程及全书代码 
+关键结果5.3、视觉传达不能拉后腿 
+关键结果5.4、学好三维动画具备基本能力 
+</code></pre><h3 id="目标6、技术以外的学习计划"><a href="#目标6、技术以外的学习计划" class="headerlink" title="目标6、技术以外的学习计划"></a>目标6、技术以外的学习计划</h3><pre><code>关键结果6.1、坚持扇贝打卡 （0.5 已完成一半，但没能连续打卡）
+关键结果6.2、仔细看完扇贝六级的视频 （0 还没开始）
+关键结果6.3、做完六级题目 （0 还没开始）
+关键结果6.4、认真读完快速阅读做好练习 （0.2 已经读完30%但练习不是很认真）
+关键结果6.5、仔细看完10本书、再快速看完另外10本 （0.2 已读完五本 ——《人类简史》、《人生的84000种可能》、《番茄工作法图解》、《癌人》、《动物农场》）
+关键结果6.6、看完两个于专业无关的视频课程  （0 还没有看）
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。&lt;/p&gt;
+&lt;p&gt;每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以看到。如果谁没有制定OK
+    
+    </summary>
+    
+    
+      <category term="OKR" scheme="http://blog.xtwroot.com/tags/OKR/"/>
+    
+  </entry>
+  
+</feed>
