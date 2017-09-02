@@ -1,0 +1,1033 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Tools," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="I'Notes" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="jar包地址:
+DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里
+SAX：http://sourceforge.net/projects/sax/
+JDOM：http://jdom.org/downloads/index.html
+DOM4J：http://sourceforge.net/projects/dom4j/
+
+一、介绍及优缺点分析1. DOM（Document">
+<meta property="og:type" content="article">
+<meta property="og:title" content="四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）">
+<meta property="og:url" content="http://blog.xtwroot.com/2017/03/28/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/index.html">
+<meta property="og:site_name" content="I'Notes">
+<meta property="og:description" content="jar包地址:
+DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里
+SAX：http://sourceforge.net/projects/sax/
+JDOM：http://jdom.org/downloads/index.html
+DOM4J：http://sourceforge.net/projects/dom4j/
+
+一、介绍及优缺点分析1. DOM（Document">
+<meta property="og:updated_time" content="2017-09-02T11:33:37.882Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）">
+<meta name="twitter:description" content="jar包地址:
+DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里
+SAX：http://sourceforge.net/projects/sax/
+JDOM：http://jdom.org/downloads/index.html
+DOM4J：http://sourceforge.net/projects/dom4j/
+
+一、介绍及优缺点分析1. DOM（Document">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: 'PU3YT5XVD1',
+      apiKey: 'abf643294dd288138f4a4635bfa17a26',
+      indexName: 'blog-xtwroot-com',
+      hits: {"per_page":100},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.xtwroot.com/2017/03/28/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/"/>
+
+
+
+
+
+  <title> 四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例） | I'Notes </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">I'Notes</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">记录终生学习的百岁人生</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://blog.xtwroot.com/2017/03/28/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="西唐王">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://images.xtwroot.top/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="I'Notes">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-09-02T19:33:37+08:00">
+                2017-09-02
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2017/03/28/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2017/03/28/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/" itemprop="commentsCount"></span>
+                </a>
+              
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                <span title="字数统计">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                <span title="阅读时长">
+                  
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="jar包地址"><a href="#jar包地址" class="headerlink" title="jar包地址:"></a>jar包地址:</h3><blockquote>
+<p>DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里</p>
+<p>SAX：<a href="http://sourceforge.net/projects/sax/" target="_blank" rel="external">http://sourceforge.net/projects/sax/</a></p>
+<p>JDOM：<a href="http://jdom.org/downloads/index.html" target="_blank" rel="external">http://jdom.org/downloads/index.html</a></p>
+<p>DOM4J：<a href="http://sourceforge.net/projects/dom4j/" target="_blank" rel="external">http://sourceforge.net/projects/dom4j/</a></p>
+</blockquote>
+<h2 id="一、介绍及优缺点分析"><a href="#一、介绍及优缺点分析" class="headerlink" title="一、介绍及优缺点分析"></a>一、介绍及优缺点分析</h2><h3 id="1-DOM（Document-Object-Model"><a href="#1-DOM（Document-Object-Model" class="headerlink" title="1. DOM（Document Object Model)"></a>1. DOM（Document Object Model)</h3><p> DOM是用与平台和语言无关的方式表示XML文档的官方W3C标准。DOM是以层次结构组织的节点或信息片断的集合。这个层次结构允许开发人员在树中寻找特定信息。分析该结构通常需要加载整个文档和构造层次结构，然后才能做任何工作。由于它是基于信息层次的，因而DOM被认为是基于树或基于对象的。</p>
+<h4 id="【优点】"><a href="#【优点】" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>  ①允许应用程序对数据和结构做出更改。
+
+②访问是双向的，可以在任何时候在树中上下导航，获取和操作任意部分的数据。
+</code></pre><h4 id="【缺点】"><a href="#【缺点】" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①通常需要加载整个XML文档来构造层次结构，消耗资源大。
+</code></pre><h3 id="2-SAX（Simple-API-for-XML"><a href="#2-SAX（Simple-API-for-XML" class="headerlink" title="2. SAX（Simple API for XML)"></a>2. SAX（Simple API for XML)</h3><p>SAX处理的优点非常类似于流媒体的优点。分析能够立即开始，而不是等待所有的数据被处理。而且，由于应用程序只是在读取数据时检查数据，因此不需要将数据存储在内存中。这对于大型文档来说是个巨大的优点。事实上，应用程序甚至不必解析整个文档；它可以在某个条件得到满足时停止解析。一般来说，SAX还比它的替代者DOM快许多。</p>
+<h4 id="选择DOM还是选择SAX？"><a href="#选择DOM还是选择SAX？" class="headerlink" title="选择DOM还是选择SAX？"></a>选择DOM还是选择SAX？</h4><p>对于需要自己编写代码来处理XML文档的开发人员来说，选择DOM还是SAX解析模型是一个非常重要的设计决策。DOM采用建立树形结构的方式访问XML文档，而SAX采用的是事件模型。</p>
+<p>DOM解析器把XML文档转化为一个包含其内容的树，并可以对树进行遍历。用DOM解析模型的优点是编程容易，开发人员只需要调用建树的指令，然后利用navigation APIs访问所需的树节点来完成任务。可以很容易的添加和修改树中的元素。然而由于使用DOM解析器的时候需要处理整个XML文档，所以对性能和内存的要求比较高，尤其是遇到很大的XML文件的时候。由于它的遍历能力，DOM解析器常用于XML文档需要频繁的改变的服务中。</p>
+<p>SAX解析器采用了基于事件的模型，它在解析XML文档的时候可以触发一系列的事件，当发现给定的tag的时候，它可以激活一个回调方法，告诉该方法制定的标签已经找到。SAX对内存的要求通常会比较低，因为它让开发人员自己来决定所要处理的tag.特别是当开发人员只需要处理文档中所包含的部分数据时，SAX这种扩展能力得到了更好的体现。但用SAX解析器的时候编码工作会比较困难，而且很难同时访问同一个文档中的多处不同数据。</p>
+<h4 id="【优势】"><a href="#【优势】" class="headerlink" title="【优势】"></a>【优势】</h4><pre><code>①不需要等待所有数据都被处理，分析就能立即开始。
+②只在读取数据时检查数据，不需要保存在内存中。
+③可以在某个条件得到满足时停止解析，不必解析整个文档。
+④效率和性能较高，能解析大于系统内存的文档。
+</code></pre><h4 id="【缺点】-1"><a href="#【缺点】-1" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①需要应用程序自己负责TAG的处理逻辑（例如维护父/子关系等），文档越复杂程序就越复杂。
+②单向导航，无法定位文档层次，很难同时访问同一文档的不同部分数据，不支持XPath。
+</code></pre><h2 id="3-JDOM-Java-based-Document-Object-Model"><a href="#3-JDOM-Java-based-Document-Object-Model" class="headerlink" title="3. JDOM(Java-based Document Object Model)"></a>3. JDOM(Java-based Document Object Model)</h2><p>JDOM的目的是成为Java特定文档模型，它简化与XML的交互并且比使用DOM实现更快。由于是第一个Java特定模型，JDOM一直得到大力推广和促进。正在考虑通过“Java规范请求JSR-102”将它最终用作“Java标准扩展”。从2000年初就已经开始了JDOM开发。</p>
+<p>JDOM与DOM主要有两方面不同。首先，JDOM仅使用具体类而不使用接口。这在某些方面简化了API，但是也限制了灵活性。第二，API大量使用了Collections类，简化了那些已经熟悉这些类的Java开发者的使用。</p>
+<p>JDOM文档声明其目的是“使用20%（或更少）的精力解决80%（或更多）Java/XML问题”（根据学习曲线假定为20%）。JDOM对于大多数Java/XML应用程序来说当然是有用的，并且大多数开发者发现API比DOM容易理解得多。JDOM还包括对程序行为的相当广泛检查以防止用户做任何在XML中无意义的事。然而，它仍需要您充分理解XML以便做一些超出基本的工作（或者甚至理解某些情况下的错误）。这也许是比学习DOM或JDOM接口都更有意义的工作。</p>
+<p>JDOM自身不包含解析器。它通常使用SAX2解析器来解析和验证输入XML文档（尽管它还可以将以前构造的DOM表示作为输入）。它包含一些转换器以将JDOM表示输出成SAX2事件流、DOM模型或XML文本文档。JDOM是在Apache许可证变体下发布的开放源码。</p>
+<h4 id="【优点】-1"><a href="#【优点】-1" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>①使用具体类而不是接口，简化了DOM的API。
+②大量使用了Java集合类，方便了Java开发人员。
+</code></pre><h4 id="【缺点】-2"><a href="#【缺点】-2" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①没有较好的灵活性。
+②性能较差。
+</code></pre><h2 id="4-DOM4J-Document-Object-Model-for-Java"><a href="#4-DOM4J-Document-Object-Model-for-Java" class="headerlink" title="4. DOM4J(Document Object Model for Java)"></a>4. DOM4J(Document Object Model for Java)</h2><p>虽然DOM4J代表了完全独立的开发结果，但最初，它是JDOM的一种智能分支。它合并了许多超出基本XML文档表示的功能，包括集成的XPath支持、XML Schema支持以及用于大文档或流化文档的基于事件的处理。它还提供了构建文档表示的选项，它通过DOM4J API和标准DOM接口具有并行访问功能。从2000下半年开始，它就一直处于开发之中。</p>
+<p>为支持所有这些功能，DOM4J使用接口和抽象基本类方法。DOM4J大量使用了API中的Collections类，但是在许多情况下，它还提供一些替代方法以允许更好的性能或更直接的编码方法。直接好处是，虽然DOM4J付出了更复杂的API的代价，但是它提供了比JDOM大得多的灵活性。</p>
+<p>在添加灵活性、XPath集成和对大文档处理的目标时，DOM4J的目标与JDOM是一样的：针对Java开发者的易用性和直观操作。它还致力于成为比JDOM更完整的解决方案，实现在本质上处理所有Java/XML问题的目标。在完成该目标时，它比JDOM更少强调防止不正确的应用程序行为。</p>
+<p>DOM4J是一个非常非常优秀的Java XML API，具有性能优异、功能强大和极端易用使用的特点，同时它也是一个开放源代码的软件。如今你可以看到越来越多的Java软件都在使用DOM4J来读写XML，特别值得一提的是连Sun的JAXM也在用DOM4J.</p>
+<h4 id="【优点】-2"><a href="#【优点】-2" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>①大量使用了Java集合类，方便Java开发人员，同时提供一些提高性能的替代方法。
+②支持XPath。
+③有很好的性能。
+</code></pre><h4 id="【缺点】-3"><a href="#【缺点】-3" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①大量使用了接口，API较为复杂。
+</code></pre><h2 id="二、比较"><a href="#二、比较" class="headerlink" title="二、比较"></a>二、比较</h2><ol>
+<li><p>DOM4J性能最好，连Sun的JAXM也在用DOM4J。目前许多开源项目中大量采用DOM4J，例如大名鼎鼎的Hibernate也用DOM4J来读取XML配置文件。如果不考虑可移植性，那就采用DOM4J.</p>
+</li>
+<li><p>JDOM和DOM在性能测试时表现不佳，在测试10M文档时内存溢出，但可移植。在小文档情况下还值得考虑使用DOM和JDOM.虽然JDOM的开发者已经说明他们期望在正式发行版前专注性能问题，但是从性能观点来看，它确实没有值得推荐之处。另外，DOM仍是一个非常好的选择。DOM实现广泛应用于多种编程语言。它还是许多其它与XML相关的标准的基础，因为它正式获得W3C推荐（与基于非标准的Java模型相对），所以在某些类型的项目中可能也需要它（如在JavaScript中使用DOM）。</p>
+</li>
+<li><p>SAX表现较好，这要依赖于它特定的解析方式－事件驱动。一个SAX检测即将到来的XML流，但并没有载入到内存（当然当XML流被读入时，会有部分文档暂时隐藏在内存中）。</p>
+</li>
+</ol>
+<h4 id="我的看法："><a href="#我的看法：" class="headerlink" title="我的看法："></a>我的看法：</h4><blockquote>
+<p>如果XML文档较大且不考虑移植性问题建议采用DOM4J；如果XML文档较小则建议采用JDOM；如果需要及时处理而不需要保存数据则考虑SAX。但无论如何，还是那句话：适合自己的才是最好的，如果时间允许，建议大家讲这四种方法都尝试一遍然后选择一种适合自己的即可。</p>
+</blockquote>
+<h2 id="三、示例"><a href="#三、示例" class="headerlink" title="三、示例"></a>三、示例</h2><h3 id="xml文档："><a href="#xml文档：" class="headerlink" title="xml文档："></a>xml文档：</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">users</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"1"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>Alexia<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>23<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Female<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"2"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>Edward<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>24<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Male<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"3"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>yixun<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>23<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Female<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"4"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>wanfei<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>24<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>Male<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">users</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="声明XmlDocument接口："><a href="#声明XmlDocument接口：" class="headerlink" title="声明XmlDocument接口："></a>声明XmlDocument接口：</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">XmlDocument</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">parseXml</span><span class="params">(String fileName)</span></span>;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="分别用四种方法实现该接口："><a href="#分别用四种方法实现该接口：" class="headerlink" title="分别用四种方法实现该接口："></a>分别用四种方法实现该接口：</h3><h4 id="一：dom"><a href="#一：dom" class="headerlink" title="一：dom"></a>一：dom</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> org.w3c.dom.Document;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.NamedNodeMap;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.Node;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.NodeList;</div><div class="line"><span class="keyword">import</span> org.xml.sax.SAXException;</div><div class="line"></div><div class="line"><span class="keyword">import</span> javax.xml.parsers.DocumentBuilder;</div><div class="line"><span class="keyword">import</span> javax.xml.parsers.DocumentBuilderFactory;</div><div class="line"><span class="keyword">import</span> javax.xml.parsers.ParserConfigurationException;</div><div class="line"><span class="keyword">import</span> java.io.IOException;</div><div class="line"></div><div class="line"><span class="comment">/********************************************************************************</span></div><div class="line"> * MetroGraph -- 解析xml文档 Dom版本</div><div class="line"> * <span class="doctag">@version</span> 2017/06/14 11:24</div><div class="line"> * <span class="doctag">@author</span> 西唐王, xtwyzh@gmail.com,xtwroot.com</div><div class="line"> * xtwroot Copyrights (c) 2017. All rights reserved.</div><div class="line"> ********************************************************************************/</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DomDemo</span> <span class="keyword">implements</span> <span class="title">XmlDocument</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> Document mDocument;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">parseXml</span><span class="params">(String fileName)</span> </span>&#123;</div><div class="line"></div><div class="line">        <span class="keyword">try</span> &#123;</div><div class="line"></div><div class="line">            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();</div><div class="line">            DocumentBuilder db = dbf.newDocumentBuilder();</div><div class="line">            mDocument = db.parse(fileName);</div><div class="line">            NodeList users = mDocument.getChildNodes();</div><div class="line"></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; users.getLength(); i++) &#123;</div><div class="line">                Node user = users.item(i);</div><div class="line">                NodeList userInfo = user.getChildNodes();</div><div class="line"></div><div class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; userInfo.getLength(); j++) &#123;</div><div class="line">                    Node node = userInfo.item(j);</div><div class="line">                    NodeList userMeta = node.getChildNodes();</div><div class="line">                    <span class="keyword">if</span> (node.getNodeName() == <span class="string">"user"</span>) &#123;</div><div class="line">                        NamedNodeMap namedNodeMap = node.getAttributes();</div><div class="line">                        String s = namedNodeMap.getNamedItem(<span class="string">"id"</span>).getTextContent();</div><div class="line">                        System.out.println(<span class="string">"id : "</span> + s);</div><div class="line">                    &#125;</div><div class="line"></div><div class="line">                    <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; userMeta.getLength(); k++) &#123;</div><div class="line">                        <span class="keyword">if</span> (userMeta.item(k).getNodeName() != <span class="string">"#text"</span>) &#123;</div><div class="line">                            System.out.println(userMeta.item(k).getNodeName() + <span class="string">":"</span> + userMeta.item(k).getTextContent());</div><div class="line">                        &#125;</div><div class="line"></div><div class="line">                    &#125;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line"></div><div class="line">        &#125; <span class="keyword">catch</span> (ParserConfigurationException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125; <span class="keyword">catch</span> (SAXException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Tools/" rel="tag"># Tools</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/27/好用的API/必应每日图片API/" rel="next" title="必应每日图片API">
+                <i class="fa fa-chevron-left"></i> 必应每日图片API
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/03/28/Books/《番茄工作法图解》/" rel="prev" title="《番茄工作法图解》">
+                《番茄工作法图解》 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="SOHUCS"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://images.xtwroot.top/touxiang.jpg"
+               alt="西唐王" />
+          <p class="site-author-name" itemprop="name">西唐王</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">32</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#jar包地址"><span class="nav-number">1.</span> <span class="nav-text">jar包地址:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一、介绍及优缺点分析"><span class="nav-number"></span> <span class="nav-text">一、介绍及优缺点分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-DOM（Document-Object-Model"><span class="nav-number">1.</span> <span class="nav-text">1. DOM（Document Object Model)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#【优点】"><span class="nav-number">1.1.</span> <span class="nav-text">【优点】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#【缺点】"><span class="nav-number">1.2.</span> <span class="nav-text">【缺点】</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-SAX（Simple-API-for-XML"><span class="nav-number">2.</span> <span class="nav-text">2. SAX（Simple API for XML)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#选择DOM还是选择SAX？"><span class="nav-number">2.1.</span> <span class="nav-text">选择DOM还是选择SAX？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#【优势】"><span class="nav-number">2.2.</span> <span class="nav-text">【优势】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#【缺点】-1"><span class="nav-number">2.3.</span> <span class="nav-text">【缺点】</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-JDOM-Java-based-Document-Object-Model"><span class="nav-number"></span> <span class="nav-text">3. JDOM(Java-based Document Object Model)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#【优点】-1"><span class="nav-number">0.1.</span> <span class="nav-text">【优点】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#【缺点】-2"><span class="nav-number">0.2.</span> <span class="nav-text">【缺点】</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-DOM4J-Document-Object-Model-for-Java"><span class="nav-number"></span> <span class="nav-text">4. DOM4J(Document Object Model for Java)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#【优点】-2"><span class="nav-number">0.1.</span> <span class="nav-text">【优点】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#【缺点】-3"><span class="nav-number">0.2.</span> <span class="nav-text">【缺点】</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、比较"><span class="nav-number"></span> <span class="nav-text">二、比较</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#我的看法："><span class="nav-number">0.1.</span> <span class="nav-text">我的看法：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、示例"><span class="nav-number"></span> <span class="nav-text">三、示例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#xml文档："><span class="nav-number">1.</span> <span class="nav-text">xml文档：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#声明XmlDocument接口："><span class="nav-number">2.</span> <span class="nav-text">声明XmlDocument接口：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分别用四种方法实现该接口："><span class="nav-number">3.</span> <span class="nav-text">分别用四种方法实现该接口：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一：dom"><span class="nav-number">3.1.</span> <span class="nav-text">一：dom</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">西唐王</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+  
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cyt67ppj2';
+      var conf = 'ebb39efe178cd75b9aa215a3a527fb1b';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+
+  
+
+</body>
+</html>
