@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.xtwroot.com/"/>
-  <updated>2017-09-01T01:57:29.719Z</updated>
+  <updated>2017-09-08T11:53:22.454Z</updated>
   <id>http://blog.xtwroot.com/</id>
   
   <author>
@@ -14,6 +14,140 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017OKR-9-8自评</title>
+    <link href="http://blog.xtwroot.com/2017/09/08/%E6%97%B6%E9%97%B4%E8%BF%99%E4%B8%AA%E6%9C%8B%E5%8F%8B/2017OKR-9-8%E8%87%AA%E8%AF%84/"/>
+    <id>http://blog.xtwroot.com/2017/09/08/时间这个朋友/2017OKR-9-8自评/</id>
+    <published>2017-09-07T16:15:10.000Z</published>
+    <updated>2017-09-08T11:53:22.454Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="OKR简介"><a href="#OKR简介" class="headerlink" title="OKR简介"></a>OKR简介</h2><p>Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。</p>
+<p>每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以看到。如果谁没有制定OKR，一目了然，即使没有人催你，大家看到你的网页上是一片空白，你自己都不好意思。到了季度结束时，每个人都会给自己的目标完成情况打分。完成了，得分是1。部分完成，得分是0到1之间的一个数字。</p>
+<p>Google强调每一个人制定的目标要有挑战性，因此如果一个人完成目标的得分情况总是1，并不能说明他工作好，而是目标定得太低。大部分情况下，大家完成目标的得分在0.7－0.8左右。当然，一个季度开始的时候的想法，和后来完成的任务可能会有差异，早期没有想到的事情后来可能做了。因此，在总结季度工作时，可以增加当初没有制定的目标，对于不打算完成的目标，或者已经过时、不再有意义的目标，不能删除，但是可以说明为什么没有做。今天我就按照Google制定OKR的习惯，介绍我在2017年的目标。</p>
+<h2 id="今年目标的秋季季自评"><a href="#今年目标的秋季季自评" class="headerlink" title="今年目标的秋季季自评"></a>今年目标的秋季季自评</h2><hr>
+<h3 id="目标1、养成第一个养成的习惯-不晚睡早起"><a href="#目标1、养成第一个养成的习惯-不晚睡早起" class="headerlink" title="目标1、养成第一个养成的习惯-不晚睡早起"></a>目标1、养成第一个养成的习惯-不晚睡早起</h3><ul>
+<li>[ ]     关键结果1.1、完成艾力早起团的目标 （0）- 未能坚持过四天</li>
+<li>[ ]     关键结果1.2、每日火花的坚持 （0）- 未能坚持<h3 id="目标2、养成写作的习惯"><a href="#目标2、养成写作的习惯" class="headerlink" title="目标2、养成写作的习惯"></a>目标2、养成写作的习惯</h3></li>
+<li>[ ]     关键结果2.1、技术博客20篇 （0.01）（算是有一篇）</li>
+<li>[ ]     关键结果2.2、故事20篇 （0.01）</li>
+<li>[ ]     关键结果2.3、读书笔记20篇-陆续配上脑图 （0.3）<h3 id="目标3、完成基本知识的积累"><a href="#目标3、完成基本知识的积累" class="headerlink" title="目标3、完成基本知识的积累"></a>目标3、完成基本知识的积累</h3></li>
+<li>[ ]     关键结果3.1、数据结构（C++）视频、书及练习 （0.8）</li>
+<li>[ ]     关键结果3.2、Java编程思想、威哥Java视频（0.055）</li>
+<li>[ ]     <del>关键结果3.3、威哥Android视频、官方文档一遍 （可能要抛弃）</del></li>
+<li>[ ]     关键结果3.4、完成碎梦时间的开发、并发布到应用商店 （0 暂时没有安排）</li>
+<li>[ ]     关键结果3.5、牛客网刷题（每周三题）、多交流感受 （0.2）- 正在看大神直播刷题</li>
+<li>[ ]   关键结果3.6、数据库学习,sql命令拼接器 (0)<h3 id="目标4、保质保量完成团队项目"><a href="#目标4、保质保量完成团队项目" class="headerlink" title="目标4、保质保量完成团队项目"></a>目标4、保质保量完成团队项目</h3></li>
+<li>[x]     关键结果4.1、消防项目的图像处理模块及UI（得等素材） （1.0）（新增，又得修改）</li>
+<li>[x]     关键结果4.2、大创项目的申报及前期准备工作  （1.0 已完成、但我没怎么出力）</li>
+<li>[ ]     关键结果4.3、大创项目的开发 （0.2 kinect姿势开发完成，准备重写适配包）</li>
+<li><p>[x]   关键结果4.4、开发一个外包项目并盈利 （1.0）</p>
+<h3 id="目标5、认真学好专业课程及独立完成作业"><a href="#目标5、认真学好专业课程及独立完成作业" class="headerlink" title="目标5、认真学好专业课程及独立完成作业"></a>目标5、认真学好专业课程及独立完成作业</h3></li>
+<li><p>[x] 关键结果5.1、NationDaily的网络模块及ui设计（ 完全完成预定目标 ）</p>
+</li>
+<li>[ ]     <del>关键结果5.2、计算机图形学的课程及全书代码 （0.7）（已结课，但是代码没有打完）</del></li>
+<li>[x]     关键结果5.3、视觉传达不能拉后腿 （0.8） （已结课、但是不理想）</li>
+<li>[x]     关键结果5.4、学好三维动画具备基本能力 （1.0） （get基本技能，比较满意）</li>
+<li>[ ]   关键结果5.5、上专业课时不进行其他工作 （0.0）<h3 id="目标6、技术以外的学习计划"><a href="#目标6、技术以外的学习计划" class="headerlink" title="目标6、技术以外的学习计划"></a>目标6、技术以外的学习计划</h3></li>
+<li>[ ]     关键结果6.1、坚持扇贝打卡 （0.7 一直都在，但没能连续打卡）</li>
+<li>[ ]     <del>关键结果6.2、仔细看完扇贝六级的视频 （0.1 看了一点，临时抱佛脚）（六级没过、想放弃了）</del></li>
+<li>[ ]     <del>关键结果6.3、做完六级题目 （0 没有做，裸考）</del></li>
+<li>[ ]     关键结果6.4、认真读完快速阅读做好练习 （0.2 已经读完30%但练习不是很认真）</li>
+<li>[ ]     关键结果6.5、仔细看完10本书、再快速看完另外10本 （0.6 已读完十二本 ——《人类简史》、《人生的84000种可能》、《番茄工作法图解》、《癌人》、《动物农场》、《1984》、《未来简史》、《文明之光》（上）、《大学之路》、《万万没没想到》、《我们仨》、《悟空传》）</li>
+<li>[ ]     关键结果6.6、看完两个于专业无关的视频课程 （获得具体内容 1、学堂在线《经济学原理》- 要完成相关翻译工作 2、博弈论视频 （0.05 翻译了三节）</li>
+<li>[x]     关键结果6.7、行万里路 独自去两个地方玩 （ 1.0 ）（去了福建的厦门、泉州）</li>
+<li>[ ]   关键结果6.8、硅谷来信、武志红心理学课、每天听本书 （0.3 这是享受）<h3 id="目标7、坚持我一直想做的事情"><a href="#目标7、坚持我一直想做的事情" class="headerlink" title="目标7、坚持我一直想做的事情"></a>目标7、坚持我一直想做的事情</h3></li>
+<li>[ ]     关键结果7.1、52个改变 （ 12 / 52 正在进行）</li>
+<li>[ ]     关键结果7.2、果壳时间管理的清单 （ 0.1 在看《把时间当朋友》 ）</li>
+<li>[ ]     关键结果7.3、学会学习的方法 视频+看书+练习 （0.0）</li>
+<li>[ ]     关键结果7.4、网易计算机专业课程 （0.01 制作课表）</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;OKR简介&quot;&gt;&lt;a href=&quot;#OKR简介&quot; class=&quot;headerlink&quot; title=&quot;OKR简介&quot;&gt;&lt;/a&gt;OKR简介&lt;/h2&gt;&lt;p&gt;Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(
+    
+    </summary>
+    
+    
+      <category term="OKR" scheme="http://blog.xtwroot.com/tags/OKR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）</title>
+    <link href="http://blog.xtwroot.com/2017/09/02/Java/%E5%9B%9B%E7%A7%8D%E7%94%9F%E6%88%90%E5%92%8C%E8%A7%A3%E6%9E%90XML%E6%96%87%E6%A1%A3%E7%9A%84%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%BB%8B%E7%BB%8D+%E4%BC%98%E7%BC%BA%E7%82%B9%E6%AF%94%E8%BE%83+%E7%A4%BA%E4%BE%8B%EF%BC%89/"/>
+    <id>http://blog.xtwroot.com/2017/09/02/Java/四种生成和解析XML文档的方法详解（介绍+优缺点比较+示例）/</id>
+    <published>2017-09-02T13:35:04.000Z</published>
+    <updated>2017-09-02T11:37:04.966Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="jar包地址"><a href="#jar包地址" class="headerlink" title="jar包地址:"></a>jar包地址:</h3><blockquote>
+<p>DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里</p>
+<p>SAX：<a href="http://sourceforge.net/projects/sax/" target="_blank" rel="external">http://sourceforge.net/projects/sax/</a></p>
+<p>JDOM：<a href="http://jdom.org/downloads/index.html" target="_blank" rel="external">http://jdom.org/downloads/index.html</a></p>
+<p>DOM4J：<a href="http://sourceforge.net/projects/dom4j/" target="_blank" rel="external">http://sourceforge.net/projects/dom4j/</a></p>
+</blockquote>
+<h2 id="一、介绍及优缺点分析"><a href="#一、介绍及优缺点分析" class="headerlink" title="一、介绍及优缺点分析"></a>一、介绍及优缺点分析</h2><h3 id="1-DOM（Document-Object-Model"><a href="#1-DOM（Document-Object-Model" class="headerlink" title="1. DOM（Document Object Model)"></a>1. DOM（Document Object Model)</h3><p> DOM是用与平台和语言无关的方式表示XML文档的官方W3C标准。DOM是以层次结构组织的节点或信息片断的集合。这个层次结构允许开发人员在树中寻找特定信息。分析该结构通常需要加载整个文档和构造层次结构，然后才能做任何工作。由于它是基于信息层次的，因而DOM被认为是基于树或基于对象的。</p>
+<h4 id="【优点】"><a href="#【优点】" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>  ①允许应用程序对数据和结构做出更改。
+
+②访问是双向的，可以在任何时候在树中上下导航，获取和操作任意部分的数据。
+</code></pre><h4 id="【缺点】"><a href="#【缺点】" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①通常需要加载整个XML文档来构造层次结构，消耗资源大。
+</code></pre><h3 id="2-SAX（Simple-API-for-XML"><a href="#2-SAX（Simple-API-for-XML" class="headerlink" title="2. SAX（Simple API for XML)"></a>2. SAX（Simple API for XML)</h3><p>SAX处理的优点非常类似于流媒体的优点。分析能够立即开始，而不是等待所有的数据被处理。而且，由于应用程序只是在读取数据时检查数据，因此不需要将数据存储在内存中。这对于大型文档来说是个巨大的优点。事实上，应用程序甚至不必解析整个文档；它可以在某个条件得到满足时停止解析。一般来说，SAX还比它的替代者DOM快许多。</p>
+<h4 id="选择DOM还是选择SAX？"><a href="#选择DOM还是选择SAX？" class="headerlink" title="选择DOM还是选择SAX？"></a>选择DOM还是选择SAX？</h4><p>对于需要自己编写代码来处理XML文档的开发人员来说，选择DOM还是SAX解析模型是一个非常重要的设计决策。DOM采用建立树形结构的方式访问XML文档，而SAX采用的是事件模型。</p>
+<p>DOM解析器把XML文档转化为一个包含其内容的树，并可以对树进行遍历。用DOM解析模型的优点是编程容易，开发人员只需要调用建树的指令，然后利用navigation APIs访问所需的树节点来完成任务。可以很容易的添加和修改树中的元素。然而由于使用DOM解析器的时候需要处理整个XML文档，所以对性能和内存的要求比较高，尤其是遇到很大的XML文件的时候。由于它的遍历能力，DOM解析器常用于XML文档需要频繁的改变的服务中。</p>
+<p>SAX解析器采用了基于事件的模型，它在解析XML文档的时候可以触发一系列的事件，当发现给定的tag的时候，它可以激活一个回调方法，告诉该方法制定的标签已经找到。SAX对内存的要求通常会比较低，因为它让开发人员自己来决定所要处理的tag.特别是当开发人员只需要处理文档中所包含的部分数据时，SAX这种扩展能力得到了更好的体现。但用SAX解析器的时候编码工作会比较困难，而且很难同时访问同一个文档中的多处不同数据。</p>
+<h4 id="【优势】"><a href="#【优势】" class="headerlink" title="【优势】"></a>【优势】</h4><pre><code>①不需要等待所有数据都被处理，分析就能立即开始。
+②只在读取数据时检查数据，不需要保存在内存中。
+③可以在某个条件得到满足时停止解析，不必解析整个文档。
+④效率和性能较高，能解析大于系统内存的文档。
+</code></pre><h4 id="【缺点】-1"><a href="#【缺点】-1" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①需要应用程序自己负责TAG的处理逻辑（例如维护父/子关系等），文档越复杂程序就越复杂。
+②单向导航，无法定位文档层次，很难同时访问同一文档的不同部分数据，不支持XPath。
+</code></pre><h2 id="3-JDOM-Java-based-Document-Object-Model"><a href="#3-JDOM-Java-based-Document-Object-Model" class="headerlink" title="3. JDOM(Java-based Document Object Model)"></a>3. JDOM(Java-based Document Object Model)</h2><p>JDOM的目的是成为Java特定文档模型，它简化与XML的交互并且比使用DOM实现更快。由于是第一个Java特定模型，JDOM一直得到大力推广和促进。正在考虑通过“Java规范请求JSR-102”将它最终用作“Java标准扩展”。从2000年初就已经开始了JDOM开发。</p>
+<p>JDOM与DOM主要有两方面不同。首先，JDOM仅使用具体类而不使用接口。这在某些方面简化了API，但是也限制了灵活性。第二，API大量使用了Collections类，简化了那些已经熟悉这些类的Java开发者的使用。</p>
+<p>JDOM文档声明其目的是“使用20%（或更少）的精力解决80%（或更多）Java/XML问题”（根据学习曲线假定为20%）。JDOM对于大多数Java/XML应用程序来说当然是有用的，并且大多数开发者发现API比DOM容易理解得多。JDOM还包括对程序行为的相当广泛检查以防止用户做任何在XML中无意义的事。然而，它仍需要您充分理解XML以便做一些超出基本的工作（或者甚至理解某些情况下的错误）。这也许是比学习DOM或JDOM接口都更有意义的工作。</p>
+<p>JDOM自身不包含解析器。它通常使用SAX2解析器来解析和验证输入XML文档（尽管它还可以将以前构造的DOM表示作为输入）。它包含一些转换器以将JDOM表示输出成SAX2事件流、DOM模型或XML文本文档。JDOM是在Apache许可证变体下发布的开放源码。</p>
+<h4 id="【优点】-1"><a href="#【优点】-1" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>①使用具体类而不是接口，简化了DOM的API。
+②大量使用了Java集合类，方便了Java开发人员。
+</code></pre><h4 id="【缺点】-2"><a href="#【缺点】-2" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①没有较好的灵活性。
+②性能较差。
+</code></pre><h2 id="4-DOM4J-Document-Object-Model-for-Java"><a href="#4-DOM4J-Document-Object-Model-for-Java" class="headerlink" title="4. DOM4J(Document Object Model for Java)"></a>4. DOM4J(Document Object Model for Java)</h2><p>虽然DOM4J代表了完全独立的开发结果，但最初，它是JDOM的一种智能分支。它合并了许多超出基本XML文档表示的功能，包括集成的XPath支持、XML Schema支持以及用于大文档或流化文档的基于事件的处理。它还提供了构建文档表示的选项，它通过DOM4J API和标准DOM接口具有并行访问功能。从2000下半年开始，它就一直处于开发之中。</p>
+<p>为支持所有这些功能，DOM4J使用接口和抽象基本类方法。DOM4J大量使用了API中的Collections类，但是在许多情况下，它还提供一些替代方法以允许更好的性能或更直接的编码方法。直接好处是，虽然DOM4J付出了更复杂的API的代价，但是它提供了比JDOM大得多的灵活性。</p>
+<p>在添加灵活性、XPath集成和对大文档处理的目标时，DOM4J的目标与JDOM是一样的：针对Java开发者的易用性和直观操作。它还致力于成为比JDOM更完整的解决方案，实现在本质上处理所有Java/XML问题的目标。在完成该目标时，它比JDOM更少强调防止不正确的应用程序行为。</p>
+<p>DOM4J是一个非常非常优秀的Java XML API，具有性能优异、功能强大和极端易用使用的特点，同时它也是一个开放源代码的软件。如今你可以看到越来越多的Java软件都在使用DOM4J来读写XML，特别值得一提的是连Sun的JAXM也在用DOM4J.</p>
+<h4 id="【优点】-2"><a href="#【优点】-2" class="headerlink" title="【优点】"></a>【优点】</h4><pre><code>①大量使用了Java集合类，方便Java开发人员，同时提供一些提高性能的替代方法。
+②支持XPath。
+③有很好的性能。
+</code></pre><h4 id="【缺点】-3"><a href="#【缺点】-3" class="headerlink" title="【缺点】"></a>【缺点】</h4><pre><code>①大量使用了接口，API较为复杂。
+</code></pre><h2 id="二、比较"><a href="#二、比较" class="headerlink" title="二、比较"></a>二、比较</h2><ol>
+<li><p>DOM4J性能最好，连Sun的JAXM也在用DOM4J。目前许多开源项目中大量采用DOM4J，例如大名鼎鼎的Hibernate也用DOM4J来读取XML配置文件。如果不考虑可移植性，那就采用DOM4J.</p>
+</li>
+<li><p>JDOM和DOM在性能测试时表现不佳，在测试10M文档时内存溢出，但可移植。在小文档情况下还值得考虑使用DOM和JDOM.虽然JDOM的开发者已经说明他们期望在正式发行版前专注性能问题，但是从性能观点来看，它确实没有值得推荐之处。另外，DOM仍是一个非常好的选择。DOM实现广泛应用于多种编程语言。它还是许多其它与XML相关的标准的基础，因为它正式获得W3C推荐（与基于非标准的Java模型相对），所以在某些类型的项目中可能也需要它（如在JavaScript中使用DOM）。</p>
+</li>
+<li><p>SAX表现较好，这要依赖于它特定的解析方式－事件驱动。一个SAX检测即将到来的XML流，但并没有载入到内存（当然当XML流被读入时，会有部分文档暂时隐藏在内存中）。</p>
+</li>
+</ol>
+<h4 id="我的看法："><a href="#我的看法：" class="headerlink" title="我的看法："></a>我的看法：</h4><blockquote>
+<p>如果XML文档较大且不考虑移植性问题建议采用DOM4J；如果XML文档较小则建议采用JDOM；如果需要及时处理而不需要保存数据则考虑SAX。但无论如何，还是那句话：适合自己的才是最好的，如果时间允许，建议大家讲这四种方法都尝试一遍然后选择一种适合自己的即可。</p>
+</blockquote>
+<h2 id="三、示例"><a href="#三、示例" class="headerlink" title="三、示例"></a>三、示例</h2><h3 id="xml文档："><a href="#xml文档：" class="headerlink" title="xml文档："></a>xml文档：</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">users</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"1"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>Alexia<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>23<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Female<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"2"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>Edward<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>24<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Male<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"3"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> &gt;</span>yixun<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> &gt;</span>23<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> &gt;</span>Female<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">user</span> <span class="attr">id</span>=<span class="string">"4"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">name</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>wanfei<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">age</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>24<span class="tag">&lt;/<span class="name">age</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">sex</span> <span class="attr">id</span>=<span class="string">"10"</span>&gt;</span>Male<span class="tag">&lt;/<span class="name">sex</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">user</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">users</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="声明XmlDocument接口："><a href="#声明XmlDocument接口：" class="headerlink" title="声明XmlDocument接口："></a>声明XmlDocument接口：</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">XmlDocument</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">parseXml</span><span class="params">(String fileName)</span></span>;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="分别用四种方法实现该接口："><a href="#分别用四种方法实现该接口：" class="headerlink" title="分别用四种方法实现该接口："></a>分别用四种方法实现该接口：</h3><h4 id="一：dom"><a href="#一：dom" class="headerlink" title="一：dom"></a>一：dom</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> org.w3c.dom.Document;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.NamedNodeMap;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.Node;</div><div class="line"><span class="keyword">import</span> org.w3c.dom.NodeList;</div><div class="line"><span class="keyword">import</span> org.xml.sax.SAXException;</div><div class="line"></div><div class="line"><span class="keyword">import</span> javax.xml.parsers.DocumentBuilder;</div><div class="line"><span class="keyword">import</span> javax.xml.parsers.DocumentBuilderFactory;</div><div class="line"><span class="keyword">import</span> javax.xml.parsers.ParserConfigurationException;</div><div class="line"><span class="keyword">import</span> java.io.IOException;</div><div class="line"></div><div class="line"><span class="comment">/********************************************************************************</span></div><div class="line"> * MetroGraph -- 解析xml文档 Dom版本</div><div class="line"> * <span class="doctag">@version</span> 2017/06/14 11:24</div><div class="line"> * <span class="doctag">@author</span> 西唐王, xtwyzh@gmail.com,xtwroot.com</div><div class="line"> * xtwroot Copyrights (c) 2017. All rights reserved.</div><div class="line"> ********************************************************************************/</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DomDemo</span> <span class="keyword">implements</span> <span class="title">XmlDocument</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> Document mDocument;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">parseXml</span><span class="params">(String fileName)</span> </span>&#123;</div><div class="line"></div><div class="line">        <span class="keyword">try</span> &#123;</div><div class="line"></div><div class="line">            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();</div><div class="line">            DocumentBuilder db = dbf.newDocumentBuilder();</div><div class="line">            mDocument = db.parse(fileName);</div><div class="line">            NodeList users = mDocument.getChildNodes();</div><div class="line"></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; users.getLength(); i++) &#123;</div><div class="line">                Node user = users.item(i);</div><div class="line">                NodeList userInfo = user.getChildNodes();</div><div class="line"></div><div class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; userInfo.getLength(); j++) &#123;</div><div class="line">                    Node node = userInfo.item(j);</div><div class="line">                    NodeList userMeta = node.getChildNodes();</div><div class="line">                    <span class="keyword">if</span> (node.getNodeName() == <span class="string">"user"</span>) &#123;</div><div class="line">                        NamedNodeMap namedNodeMap = node.getAttributes();</div><div class="line">                        String s = namedNodeMap.getNamedItem(<span class="string">"id"</span>).getTextContent();</div><div class="line">                        System.out.println(<span class="string">"id : "</span> + s);</div><div class="line">                    &#125;</div><div class="line"></div><div class="line">                    <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; userMeta.getLength(); k++) &#123;</div><div class="line">                        <span class="keyword">if</span> (userMeta.item(k).getNodeName() != <span class="string">"#text"</span>) &#123;</div><div class="line">                            System.out.println(userMeta.item(k).getNodeName() + <span class="string">":"</span> + userMeta.item(k).getTextContent());</div><div class="line">                        &#125;</div><div class="line"></div><div class="line">                    &#125;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line"></div><div class="line">        &#125; <span class="keyword">catch</span> (ParserConfigurationException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125; <span class="keyword">catch</span> (SAXException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;jar包地址&quot;&gt;&lt;a href=&quot;#jar包地址&quot; class=&quot;headerlink&quot; title=&quot;jar包地址:&quot;&gt;&lt;/a&gt;jar包地址:&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;DOM：在现在的Java JDK里都自带了，在xml-apis.jar包里&lt;/
+    
+    </summary>
+    
+      <category term="Java" scheme="http://blog.xtwroot.com/categories/Java/"/>
+    
+    
+      <category term="Tools" scheme="http://blog.xtwroot.com/tags/Tools/"/>
+    
+  </entry>
   
   <entry>
     <title>改变11：使用牙线棒</title>
@@ -745,81 +879,6 @@
 &lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/4%E3%80%81%E5%B8%83%E6%9C%97%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
-    
-    </summary>
-    
-      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>布依族</title>
-    <link href="http://blog.xtwroot.com/2017/06/03/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E5%B8%83%E4%BE%9D%E6%97%8F/"/>
-    <id>http://blog.xtwroot.com/2017/06/03/每日民族/布依族/</id>
-    <published>2017-06-03T13:35:04.000Z</published>
-    <updated>2017-06-04T12:17:26.860Z</updated>
-    
-    <content type="html"><![CDATA[<hr>
-<p><img src="http://images.xtwroot.top/5%E3%80%81%E5%B8%83%E4%BE%9D%E6%97%8F.jpg" alt="image"></p>
-<hr>
-<div class="note info"><p>【简介】</p>
-</div>
-<blockquote>
-<p>布依族主要聚居在贵州省黔西南两个布依族苗族自治州，以及贵州的都匀，独山，平塘， 镇宁等 10 个县 ( 市 )。布依语属汉藏语系壮侗语族壮傣语支。布依语和壮语有密切的亲属关系。布依 族过去没有文字，一直使用汉文。解放后，人民政府为布依族创制了用拉丁字母拼音的布依文。布依族地区山青水秀，自然风光多姿多彩，野生动植物资源及矿产资 源也很丰富。布依族以农业为主，种植水稻的历史较为悠久。 </p>
-</blockquote>
-<hr>
-<div class="note info"><p>【服饰】</p>
-</div>
-<blockquote>
-<p>布依族居住在我国西南地区的盘江、 红水河流域。布依族男子常穿短衣长裤，盛装时着 长衫，戴瓜皮帽。妇女则上着短衣，下着百褶裙或长裤，戴银饰。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/5%E3%80%81%E5%B8%83%E4%BE%9D%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;
-    
-    </summary>
-    
-      <category term="每日民族" scheme="http://blog.xtwroot.com/categories/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>藏族</title>
-    <link href="http://blog.xtwroot.com/2017/06/02/%E6%AF%8F%E6%97%A5%E6%B0%91%E6%97%8F/%E8%97%8F%E6%97%8F/"/>
-    <id>http://blog.xtwroot.com/2017/06/02/每日民族/藏族/</id>
-    <published>2017-06-02T13:35:04.000Z</published>
-    <updated>2017-06-04T12:17:31.732Z</updated>
-    
-    <content type="html"><![CDATA[<hr>
-<p><img src="http://images.xtwroot.top/6%E3%80%81%E8%97%8F%E6%97%8F.jpg" alt="image"></p>
-<hr>
-<div class="note info"><p>【简介】</p>
-</div>
-<blockquote>
-<p>藏族是中华民族的重要一员，分布于辽阔的青藏高原。主要聚居在西藏自治区，以及 青海省的海北、黄南、海南、果洛、玉树等藏族自治州和海西蒙古族藏族自治州，甘肃省的甘南藏族 自治州和天祝藏族自治县，四川省的阿坝、甘孜两个藏族自治州和木里藏族自治县，云南省的迪庆藏 族自治州。藏族有自己的语言和文字，藏语，属汉藏语系藏缅语族藏语支，分为卫藏方言、康方言、 安多方言 3 种主要方言。藏文系参照梵文某些字体于公元 7 世纪前期创制，经过三次修订发展而来，为自左向右横写的拼音文字，通用至今。 </p>
-</blockquote>
-<hr>
-<div class="note info"><p>【服饰】</p>
-</div>
-<blockquote>
-<p>藏族服饰的基本结构为肥 腰、长袖、大襟长袍，穿这种肥大的衣服夜间可以 和衣而眠，袍袖宽敞，臂膀伸缩自如，既防寒又便 于起居，白天气温上升，便可脱出一条臂膀，方便 散热。久之，脱一袖的装束便成了藏族服装特有的 风度。妇女通常梳发辨，戴头饰和发套。各地男女均穿氆氇或牛皮靴。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://images.xtwroot.top/6%E3%80%81%E8%97%8F%E6%97%8F.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;【简介】&lt;/p&gt;
-&lt;/div
     
     </summary>
     
