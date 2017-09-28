@@ -1,373 +1,573 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full-height">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Archives | 文明·空间</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="文明·空间">
+<meta property="og:url" content="http://blog.xtwroot.com/archives/index.html">
+<meta property="og:site_name" content="文明·空间">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="文明·空间">
+  
+    <link rel="alternate" href="/atom.xml" title="文明·空间" type="application/atom+xml">
   
   
-  
-      <title>Archive - 文明·空间</title>
-  
-  
-    
+    <link rel="icon" href="/favicon.png">
   
   
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/gridlex.min.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/theme.css">
-<link rel="stylesheet" href="/css/share.min.css">
-<link rel="stylesheet" href="/css/lightbox.min.css">
-
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-  </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
 
 </head>
-<body style="display: flex; flex-direction: column; min-height: 100vh;">
-  <header class="header">
-	<div class="header-title">
-		<div><a href="/">文明·空间</a></div>
-	</div>
-	<div id="header-menu-container">
-		<nav class="menu">
-	
-		
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/archives/">
-			<img src="/images/archive.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/archives/">
-				<span>Archives</span>
-			</a>
-		</div>
-	</div>
-	
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/search/">
-			<img src="/images/search.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/search/">
-				<span>Search</span>
-			</a>
-		</div>
-	</div>
-</nav>
 
-	</div>
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Diskobólos</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
 </header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div style="flex: 1;">
-      
-	
-	
-		
-		<div class="container">
-	
-		
-			<h2>2017</h2>
-		
-		<div class="grid-4_sm-1 grid-equalHeight">
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/09/26/时间这个朋友/I'm 20/">
-				
-				给二十岁的一封信</a>
-			</p>
-			<small class="Card-meta">
-				2017-09-26
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/09/20/五十二个改变/改变14：做简单预算/">
-				
-				改变14：做简单预算</a>
-			</p>
-			<small class="Card-meta">
-				2017-09-20
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/09/13/五十二个改变/改变13：练习正念/">
-				
-				改变13：练习正念</a>
-			</p>
-			<small class="Card-meta">
-				2017-09-13
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/09/08/五十二个改变/改变12：慢慢减少债务/">
-				
-				改变12：慢慢减少债务</a>
-			</p>
-			<small class="Card-meta">
-				2017-09-08
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/09/08/时间这个朋友/2017OKR-9-8自评/">
-				
-				2017OKR-9-8自评</a>
-			</p>
-			<small class="Card-meta">
-				2017-09-08
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/08/30/五十二个改变/改变11：使用牙线棒/">
-				
-				改变11：使用牙线棒</a>
-			</p>
-			<small class="Card-meta">
-				2017-08-30
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/08/23/五十二个改变/改变10：做瑜伽或自重训练/">
-				
-				改变10：做瑜伽或自重训练</a>
-			</p>
-			<small class="Card-meta">
-				2017-08-23
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/08/16/五十二个改变/改变9：存钱/">
-				
-				改变9：存钱</a>
-			</p>
-			<small class="Card-meta">
-				2017-08-16
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/08/09/五十二个改变/改变8：清理一个储物柜/">
-				
-				改变8：清理一个储物柜</a>
-			</p>
-			<small class="Card-meta">
-				2017-08-09
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/08/02/五十二个改变/改变7：先做重要的事情/">
-				
-				改变7：先做重要的事情</a>
-			</p>
-			<small class="Card-meta">
-				2017-08-02
-			</small>
-		</div>
-	</div>
-</div>
-		
-		</div>
-	
-</div>
-	
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <style>
+    .post-hover:hover {
+        box-shadow: inset 0 0 100px #000;
+        transition: box-shadow .2s;
+    }
 
+    .sub-post-container .post-hover:hover h3 {
+        text-decoration: underline gray;
+    }
+
+
+    .primary-item-main {
+        height: 330px;
+        background-size: cover;
+    }
+
+    .primary-container .title,
+    .primary-container .sub-title,
+    .primary-container .post-content-text,
+    .primary-container .date {
+        color: #fff;
+    }
+
+    .post-content-text {
+        color: #f1f1f1!important;
+    }
+
+    .primary-container .post-hover {
+        background: black;
+    }
+
+    .content-bg-mask {
+        background: rgba(0,0,0,.4);
+    }
+
+</style>
+
+<div style="background: #f5f8f9;">
+    <div id="main-container" class="container" style="padding-top: 20px;">
+        <div class="is-flex main-content justify-center">
+            <section class="column is-9">
+                
+<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
+    <div class="column  is-7-desktop">
+        <a href="/2017/09/26/时间这个朋友/I'm 20/">
+            <div class="full-height post-hover"
+                 style="
+                         background-image: url('');
+                         height: 350px;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         ">
+                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
+                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
+                            给二十岁的一封信
+                        </h1>
+                        <div>
+                        
+                            `
+                                <span class="tag is-post-tag">oIo</span>
+                            
+                        
+                        </div>
+                        <p class="post-content-text is-marginless has-padding text-shadow">
+                            
+作为一个生命来到地球已经二十年了，在过去的一年里我收获了很多，甚至比先前的十九年都多。在从十九到二十的这一年，我第一次真正了解到了一些真实世界的规则，也对真正的世界产生了兴趣，我很乐于去探索真实的世界，虽然这个真实世界并不怎么美好！以..
+                        </p>
+                        <p class="date text-shadow">2017-09-26</p>
+                        <button class="button is-info is-small">Read More</button>
+                    </div>
+            </div>
+        </a>
+    </div>
+    <div class="column is-5 is-hidden-touch" style="padding-left: 0;">
+        <div class="full-height is-flex flex-column justify-space-between" style="min-height: 350px;">
+            
+                
+<a class="post-hover" href="/2017/09/20/五十二个改变/改变14：做简单预算/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                改变14：做简单预算
+            </h3>
+            
+            
+            <span class="tag is-post-tag">habit</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                改 变如果还没有开始为日常开支做预算，那就建立一个简单的预算和跟踪。
+理 由这是一个很多人不愿意..
+            </p>
+            <p class="date text-shadow is-marginless">2017-09-20</p>
+        </div>
+    </div>
+</a>
+            
+            
+                
+<a class="post-hover" href="/2017/09/13/五十二个改变/改变13：练习正念/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                改变13：练习正念
+            </h3>
+            
+            
+            <span class="tag is-post-tag">habit</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                改 变在你进行的一项健身运动中，保持正念。
+理 由正念这个词其实不太好解释，确实有点「只可意会、..
+            </p>
+            <p class="date text-shadow is-marginless">2017-09-13</p>
+        </div>
+    </div>
+</a>
+            
+        </div>
+    </div>
+    <div class="column is-12 is-hidden-desktop">
+        
+        
+<a class="post-hover" href="/2017/09/20/五十二个改变/改变14：做简单预算/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                改变14：做简单预算
+            </h3>
+            
+            
+            <span class="tag is-post-tag">habit</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                改 变如果还没有开始为日常开支做预算，那就建立一个简单的预算和跟踪。
+理 由这是一个很多人不愿意..
+            </p>
+            <p class="date text-shadow is-marginless">2017-09-20</p>
+        </div>
+    </div>
+</a>
+        
+        
+        
+<a class="post-hover" href="/2017/09/13/五十二个改变/改变13：练习正念/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                改变13：练习正念
+            </h3>
+            
+            
+            <span class="tag is-post-tag">habit</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                改 变在你进行的一项健身运动中，保持正念。
+理 由正念这个词其实不太好解释，确实有点「只可意会、..
+            </p>
+            <p class="date text-shadow is-marginless">2017-09-13</p>
+        </div>
+    </div>
+</a>
+        
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/20/五十二个改变/改变14：做简单预算/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变14：做简单预算</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变如果还没有开始为日常开支做预算，那就建立一个简单的预算和跟踪。
+理 由这是一个很多人不愿意做的改变，因为听起来做预算是一个很专业很复杂的事情。其实，日常开支的预算并不复杂，你用不着了解那些会计准则、记账原则，它跟记流水账一样简单，并且能帮助你改善经济状况。
+说白了预算就是一个计划，一个帮助你分配钱花在哪里、解决「好像没花多少就没钱」问题的工具。
+步..
+                                        </p>
+                                        <p>2017-09-20</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/13/五十二个改变/改变13：练习正念/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变13：练习正念</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变在你进行的一项健身运动中，保持正念。
+理 由正念这个词其实不太好解释，确实有点「只可意会、不可言传」的意味。对于刚接触的人来说，可以先简单地将正念认为是「不加评价+不分心」。
+很多人认为运动很苦啊，但为了减肥又不得不做。我们可以有另一种态度去对待运动，把正念的态度引入到运动中，学习享受当下。
+我周围不少人认为自己忙死了，哪里有时间正念运动啊？实际上..
+                                        </p>
+                                        <p>2017-09-13</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/08/五十二个改变/改变12：慢慢减少债务/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变12：慢慢减少债务</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变如果你欠了一些钱（比如信用卡分期，找朋友借钱），并且还没有明确的偿还计划，那就开始一点点偿还吧。
+理 由以信用卡分期还款为例，一方面它的利息会越滚越大，不断偷走你的收入。另一方面，过多的负债也会限制你的行动，给你带来心理上的压力。
+减少债务的方法很简单，就是让你的收入大于支出。
+可是，当你已经月光、已经有一大笔欠债的时候，还债是不容易的事情。下面是..
+                                        </p>
+                                        <p>2017-09-08</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/08/时间这个朋友/2017OKR-9-8自评/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>2017OKR-9-8自评</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">OKR</span>
+                                            
+                                        </p>
+                                        <p>
+                                            OKR简介Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。
+每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以看到。如果谁没有制定OKR，一目了然，即使没有人催你，大家看到你的网页上是一片空白，你自己都不好意思。到了季度..
+                                        </p>
+                                        <p>2017-09-08</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/08/30/五十二个改变/改变11：使用牙线棒/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变11：使用牙线棒</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变每天晚上刷牙前，花2分钟使用牙线棒。
+理 由我们这一代人，应该已经养成了早晚刷牙的好习惯。不过牙刷只能清洁牙齿的内外两面、牙龈的咬合面。对于牙缝、牙垢、牙菌斑却无能为力。
+如果你有过看牙医的经历，就知道看牙医的费用是非常高的。如果我们事前做好保健的话，就能减少这笔巨大的开销。
+牙线棒是清洁牙缝间隙最有效的方法。我们每一个牙齿都有五个面，通常刷牙只能..
+                                        </p>
+                                        <p>2017-08-30</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/08/23/五十二个改变/改变10：做瑜伽或自重训练/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变10：做瑜伽或自重训练</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变在这周里，每天进行2-5分钟的瑜伽或自重训练。
+理 由运动能让你身材健硕、体态更好、帮助你改善心肺系统、提升抵抗力、增进心理健康、增强记忆力、吸引美女帅哥的目光，运动的好处我写上十页纸都写不完。
+瑜伽是一种很特别的运动，它可以在任何地方进行，不需要器械（穿得宽松即可）。它能帮助你变得更柔韧、平静、专注，我非常推荐你去试试。
+有些人的韧带比较紧、有一..
+                                        </p>
+                                        <p>2017-08-23</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/08/16/五十二个改变/改变9：存钱/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变9：存钱</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变如果你还是月光族的话，那就赶紧每月定期存钱吧。如果你每月都能存上一笔钱，那就开始投资吧。
+理 由对于我们这些年轻人来说，尽早开始存钱是人生最重要的事情之一。如果你有一定的积蓄，可以活得更从容（换工作前可以出去旅游一会），更好地应对危急时刻（公司裁员、父母住院）。
+在日常开支以外，你需要准备些应急的现金。
+步 骤
+专门开一个储蓄账户（如果还没有的话）..
+                                        </p>
+                                        <p>2017-08-16</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/08/09/五十二个改变/改变8：清理一个储物柜/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变8：清理一个储物柜</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变花点时间，清理一个家里或办公室的储物柜。
+理 由一个干净整洁的环境能让人清爽自在，当空间里胡乱堆满各类东西，会给你带来视觉上的干扰，产生一种烦躁的心态。
+可是如果说要搞一次大扫除呢，又让我感觉会很麻烦很累，导致还没开始就放弃。
+所以，我们只从清理一个小储物柜（或者储物柜的一个抽屉）开始。
+步 骤
+选择一个储物柜进行清理（书架，抽屉，电视柜等）。设定..
+                                        </p>
+                                        <p>2017-08-09</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/08/02/五十二个改变/改变7：先做重要的事情/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>改变7：先做重要的事情</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">habit</span>
+                                            
+                                        </p>
+                                        <p>
+                                            改 变每天早上，选出1-3件今天能完成的、有意思的事情（刷牙洗脸看A片这种就算了），作为你的重要的事情。在你开始处理其他工作前，先把这些重要事情做完。
+理 由我们喜欢做很多琐事，完成这些琐事让我们感觉「特别有效率」。这些「紧急的小事」不断出现，而真正重要的事情却被我们一拖再拖，直到最后期限迫近我们才不得不去做它，把自己搞得狼狈不堪。
+以我为例子，我要尽快..
+                                        </p>
+                                        <p>2017-08-02</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                <!--翻頁-->
+                <nav class="pagination is-flex" style="justify-content: flex-end">
+                    
+                </nav>
+            </section>
+            
+        </div>
+    </div>
+</div>
+
+      </div>
   </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
 
-  <footer class='footer'>
-    <div class='footer-logo'>
-        <span></span>
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © 西唐王 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
     </div>
-    <div class='footer-social'>
-        
-        
-    </div>
-    <p> Copyright by <a href="">@西唐王</a> in 2017</p>
-    <p> Icons by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">Flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0</a></p>
-    <p> Powered by <a href="hexo.io">Hexo.</a></p>
+  </div>
 </footer>
 
-  <br>
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
 
-  <div id="footer-menu-container">
-		<nav class="menu">
-	
-		
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/archives/">
-			<img src="/images/archive.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/archives/">
-				<span>Archives</span>
-			</a>
-		</div>
-	</div>
-	
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/search/">
-			<img src="/images/search.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/search/">
-				<span>Search</span>
-			</a>
-		</div>
-	</div>
-</nav>
-
-	</div>
-
-  <script src="/js/instantclick.min.js"></script>
-<script src="/js/social-share.min.js"></script>
-<script src="/js/theme.js"></script>
-<script src="/js/lightbox-plus-jquery.min.js"></script>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://qutang-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-<script data-no-instant>
-InstantClick.on('change', function(isInitialLoad) {
-  if (isInitialLoad === false) {
-    if (typeof MathJax !== 'undefined') // support MathJax
-      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    if (typeof prettyPrint !== 'undefined') // support google code prettify
-      prettyPrint();
-    if (typeof _hmt !== 'undefined')  // support 百度统计
-      _hmt.push(['_trackPageview', location.pathname + location.search]);
-    if (typeof ga !== 'undefined')  // support google analytics
-        ga('send', 'pageview', location.pathname + location.search);
-    changeLayoutOnTouchScreen();
-
-    //
-    var d = document, s = d.createElement('script');
-    s.src = 'https://qutang-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    }
-});
-InstantClick.init();
-</script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

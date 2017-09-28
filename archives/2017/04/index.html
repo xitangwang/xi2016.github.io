@@ -1,245 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full-height">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Archives: 2017/4 | 文明·空间</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="文明·空间">
+<meta property="og:url" content="http://blog.xtwroot.com/archives/2017/04/index.html">
+<meta property="og:site_name" content="文明·空间">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="文明·空间">
+  
+    <link rel="alternate" href="/atom.xml" title="文明·空间" type="application/atom+xml">
   
   
-      <title>2017 - Archive - 文明·空间</title>
+    <link rel="icon" href="/favicon.png">
   
   
-      <title>Archive - 文明·空间</title>
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
   
-    
-  
-  
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/gridlex.min.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/theme.css">
-<link rel="stylesheet" href="/css/share.min.css">
-<link rel="stylesheet" href="/css/lightbox.min.css">
-
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-  </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-  
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
 
 </head>
-<body style="display: flex; flex-direction: column; min-height: 100vh;">
-  <header class="header">
-	<div class="header-title">
-		<div><a href="/">文明·空间</a></div>
-	</div>
-	<div id="header-menu-container">
-		<nav class="menu">
-	
-		
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/archives/">
-			<img src="/images/archive.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/archives/">
-				<span>Archives</span>
-			</a>
-		</div>
-	</div>
-	
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/search/">
-			<img src="/images/search.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/search/">
-				<span>Search</span>
-			</a>
-		</div>
-	</div>
-</nav>
 
-	</div>
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Diskobólos</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
 </header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div style="flex: 1;">
-      
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <style>
+    .post-hover:hover {
+        box-shadow: inset 0 0 100px #000;
+        transition: box-shadow .2s;
+    }
 
-	<div class="container">
-	
-		
-			<h2>2017</h2>
-		
-		<div class="grid-4_sm-1 grid-equalHeight">
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/04/11/时间这个朋友/OKR目标管理方法/">
-				
-				OKR目标管理方法</a>
-			</p>
-			<small class="Card-meta">
-				2017-04-11
-			</small>
-		</div>
-	</div>
-</div>
-		
-			<div class="col">
-	<div class='Card-archive'>
-		<div class="Card-body">
-			<p class='Card-title'>
-				
-					<a href="/2017/04/04/【故事】/狼是怎么来的/">
-				
-				狗是怎么来的</a>
-			</p>
-			<small class="Card-meta">
-				2017-04-04
-			</small>
-		</div>
-	</div>
-</div>
-		
-		</div>
-	
-</div>
-	
+    .sub-post-container .post-hover:hover h3 {
+        text-decoration: underline gray;
+    }
 
+
+    .primary-item-main {
+        height: 330px;
+        background-size: cover;
+    }
+
+    .primary-container .title,
+    .primary-container .sub-title,
+    .primary-container .post-content-text,
+    .primary-container .date {
+        color: #fff;
+    }
+
+    .post-content-text {
+        color: #f1f1f1!important;
+    }
+
+    .primary-container .post-hover {
+        background: black;
+    }
+
+    .content-bg-mask {
+        background: rgba(0,0,0,.4);
+    }
+
+</style>
+
+<div style="background: #f5f8f9;">
+    <div id="main-container" class="container" style="padding-top: 20px;">
+        <div class="is-flex main-content justify-center">
+            <section class="column is-9">
+                
+<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
+    <div class="column  is-7-desktop">
+        <a href="/2017/04/11/时间这个朋友/OKR目标管理方法/">
+            <div class="full-height post-hover"
+                 style="
+                         background-image: url('');
+                         height: 350px;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         ">
+                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
+                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
+                            OKR目标管理方法
+                        </h1>
+                        <div>
+                        
+                            `
+                                <span class="tag is-post-tag">OKR</span>
+                            
+                        
+                        </div>
+                        <p class="post-content-text is-marginless has-padding text-shadow">
+                            Google的每个员工每个季度都要给自己定一个或者几个目标(Objectives)，以及衡量目标是否达成的关键结果(Key Results)，这几个词合在一起被称为”OKR”。
+每个人的OKR会放到自己的网页上，大约半页纸长，大家都可以..
+                        </p>
+                        <p class="date text-shadow">2017-04-11</p>
+                        <button class="button is-info is-small">Read More</button>
+                    </div>
+            </div>
+        </a>
+    </div>
+    <div class="column is-5 is-hidden-touch" style="padding-left: 0;">
+        <div class="full-height is-flex flex-column justify-space-between" style="min-height: 350px;">
+            
+                
+<a class="post-hover" href="/2017/04/04/【故事】/狼是怎么来的/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                狗是怎么来的
+            </h3>
+            
+            
+            <span class="tag is-post-tag">故事</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                狼不能被驯化，那狗是怎么来的最近看了一本《狼图腾》，感觉狼性是很神的一个东西，最后书中的结论是狼..
+            </p>
+            <p class="date text-shadow is-marginless">2017-04-04</p>
+        </div>
+    </div>
+</a>
+            
+            
+        </div>
+    </div>
+    <div class="column is-12 is-hidden-desktop">
+        
+        
+<a class="post-hover" href="/2017/04/04/【故事】/狼是怎么来的/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                狗是怎么来的
+            </h3>
+            
+            
+            <span class="tag is-post-tag">故事</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                狼不能被驯化，那狗是怎么来的最近看了一本《狼图腾》，感觉狼性是很神的一个东西，最后书中的结论是狼..
+            </p>
+            <p class="date text-shadow is-marginless">2017-04-04</p>
+        </div>
+    </div>
+</a>
+        
+        
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/04/04/【故事】/狼是怎么来的/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>狗是怎么来的</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">故事</span>
+                                            
+                                        </p>
+                                        <p>
+                                            狼不能被驯化，那狗是怎么来的最近看了一本《狼图腾》，感觉狼性是很神的一个东西，最后书中的结论是狼不能够被驯化。
+
+                                        </p>
+                                        <p>2017-04-04</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                <!--翻頁-->
+                <nav class="pagination is-flex" style="justify-content: flex-end">
+                    
+                </nav>
+            </section>
+            
+        </div>
+    </div>
+</div>
+
+      </div>
   </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
 
-  <footer class='footer'>
-    <div class='footer-logo'>
-        <span></span>
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © 西唐王 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
     </div>
-    <div class='footer-social'>
-        
-        
-    </div>
-    <p> Copyright by <a href="">@西唐王</a> in 2017</p>
-    <p> Icons by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">Flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0</a></p>
-    <p> Powered by <a href="hexo.io">Hexo.</a></p>
+  </div>
 </footer>
 
-  <br>
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
 
-  <div id="footer-menu-container">
-		<nav class="menu">
-	
-		
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/archives/">
-			<img src="/images/archive.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/archives/">
-				<span>Archives</span>
-			</a>
-		</div>
-	</div>
-	
-	
-	<div class='menu-item'>
-		<div class='menu-icon'>
-			<a href="/search/">
-			<img src="/images/search.svg" alt="">
-			</a>
-		</div>
-		<div class="menu-name">
-			<a class='menu-link' href="/search/">
-				<span>Search</span>
-			</a>
-		</div>
-	</div>
-</nav>
-
-	</div>
-
-  <script src="/js/instantclick.min.js"></script>
-<script src="/js/social-share.min.js"></script>
-<script src="/js/theme.js"></script>
-<script src="/js/lightbox-plus-jquery.min.js"></script>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://qutang-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-<script data-no-instant>
-InstantClick.on('change', function(isInitialLoad) {
-  if (isInitialLoad === false) {
-    if (typeof MathJax !== 'undefined') // support MathJax
-      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    if (typeof prettyPrint !== 'undefined') // support google code prettify
-      prettyPrint();
-    if (typeof _hmt !== 'undefined')  // support 百度统计
-      _hmt.push(['_trackPageview', location.pathname + location.search]);
-    if (typeof ga !== 'undefined')  // support google analytics
-        ga('send', 'pageview', location.pathname + location.search);
-    changeLayoutOnTouchScreen();
-
-    //
-    var d = document, s = d.createElement('script');
-    s.src = 'https://qutang-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    }
-});
-InstantClick.init();
-</script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
